@@ -104,6 +104,6 @@ Liste os 3–5 CTAs principais que serão usados ao longo do mês, com a frase e
 ---
 
 ## Instruções de Salvamento
-Salve os dois arquivos na pasta do Google Drive Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/ utilizando a nomenclatura exata abaixo e confirme no chat:
-Arquivo 1: Salve como Editorial Mensal — [Mês] [Ano] e confirme com: "Editorial Mensal — [Mês] [Ano] salvo no Google Drive."
-Arquivo 2: Salve como Funil de Conteúdo — [Mês] [Ano] e confirme com: "Funil de Conteúdo — [Mês] [Ano] salvo no Google Drive."
+Salve os dois arquivos na pasta do Google Drive `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/` utilizando a nomenclatura exata abaixo e confirme no chat:
+Arquivo 1: Salve como `Editorial Mensal — [Mês] [Ano]` e confirme com: `Editorial Mensal — [Mês] [Ano]` salvo no Google Drive.
+Arquivo 2: Salve como `Funil de Conteúdo — [Mês] [Ano]` e confirme com: `Funil de Conteúdo — [Mês] [Ano]` salvo no Google Drive.
