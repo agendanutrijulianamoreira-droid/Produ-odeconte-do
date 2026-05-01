@@ -58,7 +58,7 @@ Para cada campanha:
 ---
 
 ## Instruções de Salvamento
-Após gerar o conteúdo, salve o resultado em:
+Após gerar o conteúdo, salve o resultado no google drive em:
 `estrategia/[ANO]/linha-editorial-anual.md`
 
 Confirme no chat: "Linha editorial anual [ANO] salva em `estrategia/[ANO]/linha-editorial-anual.md`."
