@@ -98,7 +98,7 @@ prompts/
 
 Execute uma vez por ano (idealmente em dezembro para o ano seguinte).
 
-**Comando:** leia o arquivo `prompts/rotina-anual.md`, siga as instruções e salve o resultado em `estrategia/[ANO]/linha-editorial-anual.md`.
+**Comando:** leia o arquivo `prompts/rotina-anual.md`, siga as instruções e salve o resultado em `Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-anual.md`.
 
 O arquivo gerado contém:
 - Tema/palavra-chave do ano
@@ -113,11 +113,11 @@ O arquivo gerado contém:
 
 Execute no último dia ou primeira segunda-feira de cada mês.
 
-**Pré-requisito:** `estrategia/[ANO]/linha-editorial-anual.md` deve existir.
+**Pré-requisito:** `Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-anual.md` deve existir.
 
 **Comando:** leia o arquivo `prompts/rotina-mensal.md` e o arquivo de estratégia anual correspondente, gere o editorial do mês atual e salve em:
-- `conteudo/[ANO]/[MES]/editorial-mensal.md`
-- `conteudo/[ANO]/[MES]/funil-conteudo.md`
+- `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/editorial-mensal.md`
+- `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/funil-conteudo.md`
 
 O editorial mensal contém:
 - Tema central do mês e por que agora
@@ -135,9 +135,9 @@ O funil de conteúdo contém:
 
 Execute toda segunda-feira (ou domingo à noite).
 
-**Pré-requisito:** `conteudo/[ANO]/[MES]/editorial-mensal.md` deve existir.
+**Pré-requisito:** `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/editorial-mensal.md` deve existir.
 
-**Comando:** leia o arquivo `prompts/rotina-semanal.md`, o editorial mensal e o funil do mês corrente. Gere os 4 arquivos da semana correspondente e salve em `conteudo/[ANO]/[MES]/semana-[N]/`.
+**Comando:** leia o arquivo `prompts/rotina-semanal.md`, o editorial mensal e o funil do mês corrente. Gere os 4 arquivos da semana correspondente e salve em `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/semana-[N]/`.
 
 Os 4 arquivos gerados:
 
