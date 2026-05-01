@@ -9,14 +9,55 @@ Este repositório é o cérebro da produção de conteúdo. O Claude executa rot
 > Preencha esta seção antes de rodar qualquer rotina.
 
 ```
-NOME:           [Nome / Nome do negócio]
-NICHO:          [Ex: Nutrição funcional, emagrecimento, saúde feminina]
-PÚBLICO-ALVO:   [Ex: Mulheres 30-50 anos que querem emagrecer sem restrição]
-TRANSFORMAÇÃO:  [Ex: De confusa com dietas → segura e magra de forma natural]
-PRODUTOS:       [Ex: Consultoria online, curso Método X, e-book Y]
-TOM DE VOZ:     [Ex: Acolhedor, direto, sem juridiquês, usa metáforas do dia a dia]
-DIFERENCIAIS:   [Ex: Foco em comportamento alimentar, sem contar calorias]
-OBJEÇÕES COMUNS:[Ex: "Já tentei de tudo", "Não tenho tempo", "É muito caro"]
+NOME:           Juliana Moreira — Nutricionista
+
+NICHO:          Nutrição para mulheres com desregulação hormonal (SOP, endometriose,
+                candidíase e miomas), com foco em emagrecimento sem efeito sanfona,
+                redução de inchaço e melhora de energia.
+
+PÚBLICO-ALVO:   Mulheres de 30 a 45 anos, empreendedoras, com rotina intensa.
+                Já tentaram dieta e falharam. Sofrem com compulsão noturna e ansiedade.
+                Sentem inchaço constante e baixa energia. Têm dificuldade de manter constância.
+
+DORES:          - Não conseguem emagrecer de forma consistente
+                - Inchaço abdominal diário
+                - Cansaço mesmo dormindo
+                - Perda de controle alimentar à noite
+                - Sintomas hormonais desregulados
+
+DESEJOS:        - Emagrecer sem restrição extrema
+                - Ter energia ao longo do dia
+                - Sentir o corpo leve e desinchado
+                - Regular hormônios e ciclo
+                - Ter controle sobre a alimentação
+
+TRANSFORMAÇÃO:  De exausta, inchada e presa em ciclos de dieta
+                → Leve, regulada e no controle do próprio corpo
+
+PRODUTOS (escada de valor):
+  Entrada:      E-book (R$47) | Protocolos sazonais (R$47–97)
+  Recorrência:  Comunidade (R$47–97/mês)
+  Conversão:    Consulta (R$200)
+  Core:         Método Reino Trimestral (R$600)
+  Upsell:       Acompanhamento avançado 3–6 meses (R$1.500–R$3.000+) — em breve
+
+OBJETIVO:       Converter seguidores e leads em consulta paga e protocolos de
+                acompanhamento. Meta: R$30.000/mês com previsibilidade.
+
+TOM DE VOZ:     Direto, estratégico e acolhedor. Sem romantização. Foco em solução
+                prática. Autoridade sem arrogância. Conversa de especialista que
+                entende a rotina real da mulher que trabalha muito e não tem tempo a perder.
+
+DIFERENCIAIS:   - Nutrição baseada em exames bioquímicos e genéticos
+                - Acompanhamento próximo e estratégico
+                - Método estruturado com ajustes semanais (Método Reino Trimestral)
+                - Foco em resultados reais, não dieta restritiva
+
+OBJEÇÕES COMUNS:"Já tentei de tudo e não funciona"
+                "Não tenho tempo"
+                "É caro"
+                "Não sei se vou conseguir seguir"
+                "Tenho medo de começar e parar de novo"
 ```
 
 ---
