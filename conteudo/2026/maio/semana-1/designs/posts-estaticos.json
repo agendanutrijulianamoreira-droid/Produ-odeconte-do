@@ -1,0 +1,19 @@
+[
+  {
+    "tipo": "capa",
+    "label": "01 mai — Dia do Trabalho",
+    "titulo": "Você trabalha por tudo.<em>\nMenos por você.</em>"
+  },
+  {
+    "tipo": "capa",
+    "label": "05 mai — Educativo",
+    "titulo": "O cansaço de 35+<em>\nnão é a idade.\nÉ o hormônio.</em>"
+  },
+  {
+    "tipo": "cta",
+    "tag": "07 mai — Série especial",
+    "titulo": "Hormônios que <strong>Ninguém</strong> te Contou",
+    "instrucao": "3 vídeos gratuitos.\n09 · 11 · 13 de maio.",
+    "cta": "Comenta QUERO → te aviso quando sair"
+  }
+]

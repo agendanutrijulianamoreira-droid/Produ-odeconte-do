@@ -1,0 +1,49 @@
+[
+  {
+    "tipo": "capa",
+    "label": "Saúde hormonal",
+    "titulo": "5 sinais de que seus hormônios estão pedindo socorro<em>.</em>"
+  },
+  {
+    "tipo": "conteudo",
+    "numero": "01",
+    "titulo": "Você acorda cansada mesmo tendo dormido",
+    "texto": "Quando o cortisol não segue o ritmo circadiano correto, ele não sobe de manhã como deveria. Resultado: a sensação de que não dormiu nada — mesmo com 8 horas de sono. Não é fraqueza. É ritmo hormonal quebrado."
+  },
+  {
+    "tipo": "conteudo",
+    "numero": "02",
+    "titulo": "Inchaço abdominal quase todos os dias",
+    "texto": "Não é o que você comeu ontem. É inflamação crônica de baixo grau, muito comum em SOP, endometriose e candidíase intestinal. O abdômen incha porque o sistema digestivo está respondendo a um desequilíbrio hormonal — não a um excesso calórico."
+  },
+  {
+    "tipo": "conteudo",
+    "numero": "03",
+    "titulo": "Compulsão alimentar à noite — mesmo depois de um dia perfeito",
+    "texto": "Cortisol alto, serotonina baixa e glicemia instável. Não é falta de disciplina. É bioquímica. E tem solução com nutrição direcionada."
+  },
+  {
+    "tipo": "conteudo",
+    "numero": "04",
+    "titulo": "Ciclo irregular, TPM intensa ou cólica que derruba",
+    "texto": "Dominância estrogênica ou deficiência de progesterona. O ciclo menstrual é o 5.º sinal vital da mulher. Quando está fora do padrão, o corpo está pedindo atenção — não analgésico."
+  },
+  {
+    "tipo": "conteudo",
+    "numero": "05",
+    "titulo": "Dificuldade de emagrecer mesmo comendo bem",
+    "texto": "Quando insulina, cortisol, leptina e hormônios sexuais estão desequilibrados, o corpo entra em modo de retenção. Mais restrição = mais retenção. O metabolismo não é burro — ele está se protegendo."
+  },
+  {
+    "tipo": "texto",
+    "titulo": "O que fazer com esses sinais?",
+    "texto": "Não ignorar. Não compensar na academia. Não fazer mais uma dieta genérica.\n\nO primeiro passo é entender o que seus exames estão dizendo — e traduzir isso em estratégia de nutrição que trate a causa, não o sintoma."
+  },
+  {
+    "tipo": "cta",
+    "tag": "Próximo passo",
+    "titulo": "Você se reconheceu em algum desses sinais?",
+    "instrucao": "Comenta o número aqui embaixo.\nSe quiser entender o que está acontecendo no seu caso — manda QUERO no DM.",
+    "cta": "Manda QUERO no DM →"
+  }
+]
