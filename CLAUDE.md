@@ -98,7 +98,7 @@ prompts/
 
 Execute uma vez por ano (idealmente em dezembro para o ano seguinte).
 
-**Comando:** leia o arquivo `prompts/rotina-anual.md`, siga as instruções e salve o resultado em `Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-anual.md`.
+**Comando:** leia o arquivo `prompts/rotina-annual.md`, siga as instruções e salve o resultado em `Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-anual.md`.
 
 O arquivo gerado contém:
 - Tema/palavra-chave do ano
@@ -113,7 +113,7 @@ O arquivo gerado contém:
 
 Execute no último dia ou primeira segunda-feira de cada mês.
 
-**Pré-requisito:** `Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-anual.md` deve existir.
+**Pré-requisito:** `Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-annual.md` deve existir.
 
 **Comando:** leia o arquivo `prompts/rotina-mensal.md` e o arquivo de estratégia anual correspondente, gere o editorial do mês atual e salve em:
 - `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/editorial-mensal.md`
