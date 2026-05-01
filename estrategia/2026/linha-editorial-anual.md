@@ -47,7 +47,7 @@ Execução: **toda semana, sem exceção.**
 Formatos disponíveis:
 - Desafio no WhatsApp (5 dias)
 - Desafio no Instagram fechado (Close Friends)
-- Maratona de lives
+- Série de Conteúdo Intensivo (Reels/Carrosséis)
 - Imersão fechada (grupo fechado, 3–7 dias)
 - Minicurso online gratuito ou pago
 
@@ -78,7 +78,7 @@ Temas por época:
 | **Fevereiro** | Basal | Análise 360° do negócio | Basal | Basal | |
 | **Março** | Carnaval (conteúdo leve) | **PICO**: Desafio IG fechado "5 dias para desinchar" → consulta | Basal | Basal | Dia da Mulher 08/03 |
 | **Abril** | Basal | Análise 360° do negócio | Basal | **LIMPA MESA**: "Dia do Chega" (WhatsApp) | Páscoa |
-| **Maio** | Basal | **PICO**: Maratona de lives "Hormônios que ninguém te contou" → Método Reino | Basal | Basal | Dia das Mães 11/05 |
+| **Maio** | Basal | **PICO**: Série Intensiva "Hormônios que ninguém te contou" → Método Reino | Basal | Basal | Dia das Mães 11/05 |
 | **Junho** | **Estirão de Crescimento** (topo de funil intenso) | Análise 360° do negócio | Basal | Basal | Dia dos Namorados 12/06 |
 | **Julho** | Basal | **PICO**: Desafio WhatsApp "Corpo Leve nas Férias" → protocolo sazonal | Basal | **LIMPA MESA**: "Operação Resgate" (leads quentes de maio/junho) | Férias |
 | **Agosto** | Basal | Análise 360° do negócio | Basal | Basal | Dia dos Pais |
@@ -185,7 +185,7 @@ Depoimentos, resultados reais, bastidores do método, cases de pacientes.
 
 ### PICO 3 — Maio semana 2
 **Campanha:** Série de Conteúdo Intensivo "Hormônios que Ninguém te Contou"
-**Formato:** 3 reels educativos gravados (seg/qua/sex) + 2 carrosseis aprofundados + sequência de stories diários + oferta do Método Reino na qui/sex
+**Formato:** 3 reels educativos gravados (seg/qua/sex) + 2 carrosseis aprofundados + sequência de stories diários + oferta do Método Reino na qui/sex. **Sem lives.**
 **Gancho:** Dia das Mães (11/05) + Mês da Saúde da Mulher
 **Oferta ao final:** Método Reino Trimestral (R$600) ou consulta
 **Aquecimento (sem 1):** Posts de identificação de dor + prova social

@@ -36,13 +36,13 @@ TRANSFORMAÇÃO:  De exausta, inchada e presa em ciclos de dieta
 
 PRODUTOS (escada de valor):
   Entrada:      E-book (R$47) | Protocolos sazonais (R$47–97)
-  Recorrência:  Comunidade (R$47–97/mês)
+  Recorrência:  Comunidade (R$47–97/mês) — em breve
   Conversão:    Consulta (R$200)
   Core:         Método Reino Trimestral (R$600)
-  Upsell:       Acompanhamento avançado 3–6 meses (R$1.500–R$3.000+) — em breve
+  Upsell:       Teste genético com devolutiva (R$1.000–R$1.200) | Acompanhamento avançado 3–6 meses (R$3.000–R$5.000+)
 
-OBJETIVO:       Converter seguidores e leads em consulta paga e protocolos de
-                acompanhamento. Meta: R$30.000/mês com previsibilidade.
+OBJETIVO:       Manter recorrência de faturamento de R$16.000/mês (foco em previsibilidade).
+                Construção de autoridade (abril–junho 2026) para aumento de preços em julho.
 
 TOM DE VOZ:     Direto, estratégico e acolhedor. Sem romantização. Foco em solução
                 prática. Autoridade sem arrogância. Conversa de especialista que
@@ -189,4 +189,7 @@ Recuperação de leads quentes que não compraram. Funil de pressão no WhatsApp
 4. **CTAs devem ser específicos** — "clique no link da bio" ou "responda aqui" em vez de "saiba mais".
 5. **Reels e stories têm ritmo** — escreva em frases curtas, pausas marcadas com `[pausa]`, textos de tela em CAPS.
 6. **Posts simples para Canva** devem ter no máximo 10 palavras visíveis — o que sobra vai na legenda.
-7. Ao salvar um arquivo, confirme no chat qual arquivo foi salvo e o caminho completo.
+7. **Proibição de Lives/Ao Vivo**: Nunca sugira lives, webinars ou eventos ao vivo. Substitua por: Desafio WhatsApp (5 dias), Desafio IG Fechado (Close Friends), Série de Conteúdo Intensivo (Reels/Carrosséis) ou Minicurso Gravado.
+8. **Identidade Visual**: Paleta cream (#F4EFE4), marrom escuro (#2B1A10), ouro (#C9A435). Tipografia Georgia. Emojis permitidos: ⚜️✅❤️😉🧠💪🎁🗝️🔓📆📋📌🥗.
+9. **Regras de Slide**: Sem travessões e sem emojis no texto dos slides. Partir sempre da experiência vivida da mulher antes da explicação clínica.
+10. Ao salvar um arquivo, confirme no chat qual arquivo foi salvo e o caminho completo.
