@@ -59,6 +59,6 @@ Para cada campanha:
 
 ## Instruções de Salvamento
 Após gerar o conteúdo, salve o resultado no google drive em:
-`estrategia/[ANO]/linha-editorial-anual.md`
+`Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-anual.md`
 
-Confirme no chat: "Linha editorial anual [ANO] salva em `estrategia/[ANO]/linha-editorial-anual.md`."
+Confirme no chat: "Linha editorial anual [ANO] salva em `Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-anual.md`."
