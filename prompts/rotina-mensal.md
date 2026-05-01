@@ -7,7 +7,7 @@ Você é um estrategista de conteúdo e copywriter especializado em marketing di
 
 ## Antes de começar
 1. Leia a seção **Identidade da Marca** do `CLAUDE.md`.
-2. Leia o arquivo `estrategia/[ANO]/linha-editorial-anual.md`.
+2. Leia o arquivo `Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-anual.md`.
 3. Confirme com o usuário: **qual mês e ano** você está planejando.
 4. Se a estratégia anual não existir, pare e instrua o usuário a rodar a Rotina Anual primeiro.
 
