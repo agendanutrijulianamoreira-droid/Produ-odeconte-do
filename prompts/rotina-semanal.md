@@ -11,14 +11,14 @@ Você é um copywriter e roteirista de conteúdo estratégico para redes sociais
 
 ## Antes de começar
 1. Leia a seção **Identidade da Marca** do `CLAUDE.md`.
-2. Leia o arquivo `conteudo/[ANO]/[MES]/editorial-mensal.md`.
+2. Leia o arquivo `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/editorial-mensal.md`.
 3. Confirme com o usuário: **qual semana** (número e datas) está sendo produzida.
 4. Identifique o mini-tema e o foco de funil dessa semana no editorial mensal.
 
 ---
 
 ## Arquivo 1 — Posts Estáticos
-Salvar em: `conteudo/[ANO]/[MES]/semana-[N]/posts-estaticos.md`
+Salvar em: `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/semana-[N]/posts-estaticos.md`
 
 Gere **3–4 posts de imagem estática**. Para cada post:
 
@@ -49,7 +49,7 @@ HASHTAGS (10–15):
 ---
 
 ## Arquivo 2 — Carrosseis
-Salvar em: `conteudo/[ANO]/[MES]/semana-[N]/carrossel.md`
+Salvar em: `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/semana-[N]/carrossel.md`
 
 Gere **1–2 carrosseis**. Para cada carrossel:
 
@@ -88,7 +88,7 @@ HASHTAGS:
 ---
 
 ## Arquivo 3 — Scripts de Stories e Reels
-Salvar em: `conteudo/[ANO]/[MES]/semana-[N]/scripts-stories-reels.md`
+Salvar em: `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/semana-[N]/scripts-stories-reels.md`
 
 ### Stories (2–3 stories por semana)
 
@@ -152,7 +152,7 @@ HASHTAGS:
 ---
 
 ## Arquivo 4 — Posts Simples para Canva
-Salvar em: `conteudo/[ANO]/[MES]/semana-[N]/posts-simples-canva.md`
+Salvar em: `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/semana-[N]/posts-simples-canva.md`
 
 Gere **4–6 posts simples** — frases curtas para artes minimalistas no Canva.
 
@@ -187,8 +187,8 @@ HASHTAGS:
 ---
 
 ## Instruções de Salvamento
-Salve os 4 arquivos e confirme no chat:
-- "Posts estáticos semana [N] salvos em `conteudo/[ANO]/[MES]/semana-[N]/posts-estaticos.md`."
-- "Carrosseis semana [N] salvos em `conteudo/[ANO]/[MES]/semana-[N]/carrossel.md`."
-- "Scripts de stories e reels semana [N] salvos em `conteudo/[ANO]/[MES]/semana-[N]/scripts-stories-reels.md`."
-- "Posts Canva semana [N] salvos em `conteudo/[ANO]/[MES]/semana-[N]/posts-simples-canva.md`."
+Salve os 4 arquivos no google drive e confirme no chat:
+- "Posts estáticos semana [N] salvos em `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/semana-[N]/posts-estaticos.md`."
+- "Carrosseis semana [N] salvos em `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/semana-[N]/carrossel.md`."
+- "Scripts de stories e reels semana [N] salvos em `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/semana-[N]/scripts-stories-reels.md`."
+- "Posts Canva semana [N] salvos em `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/semana-[N]/posts-simples-canva.md`."
