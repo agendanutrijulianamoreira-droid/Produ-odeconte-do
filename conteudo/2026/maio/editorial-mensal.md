@@ -7,7 +7,7 @@
 Mês:                 Maio / 2026
 Tema central:        Cuide da mãe que existe em você primeiro
 Objetivo de conv.:   Método Reino Trimestral (R$600) + Consulta (R$200)
-Máquina de Vendas:   Semana 2 = PICO (Maratona de Lives)
+Máquina de Vendas:   Semana 2 = PICO (Série de Conteúdo Intensivo)
 Meta financeira:     15 vendas Método Reino + 20 consultas = R$13.000
 Semanas do mês:
   Semana 1: 01–07/mai
@@ -27,7 +27,7 @@ Maio tem o Dia das Mães como âncora emocional mais poderosa do ano para este p
 O tema inverte essa lógica sem culpa: cuidar dos hormônios, do inchaço e da energia não é luxo — é condição para funcionar. A mensagem do mês não é "você merece mimo", é "você não consegue dar o que não tem. Seu corpo está pedindo socorro há anos."
 
 **Conexão com o arco anual ("Regulada por Dentro, Leve por Fora"):**
-Maio é o ponto de virada emocional do ano. A mulher que chegou em janeiro com promessas, passou por março sem agir, chega em maio com a culpa acumulada e a dor ainda presente. O Dia das Mães cria uma janela de autocompassão que a Maratona de Lives transforma em ação concreta.
+Maio é o ponto de virada emocional do ano. A mulher que chegou em janeiro com promessas, passou por março sem agir, chega em maio com a culpa acumulada e a dor ainda presente. O Dia das Mães cria uma janela de autocompassão que a Série de Conteúdo Intensivo transforma em ação concreta.
 
 ---
 
@@ -42,7 +42,7 @@ Maio é o ponto de virada emocional do ano. A mulher que chegou em janeiro com p
 - Total: R$13.000
 
 **Oferta PICO (semana 2):**
-Acesso ao Método Reino com bônus exclusivo para quem entrar durante a Maratona de Lives:
+Acesso ao Método Reino com bônus exclusivo para quem entrar durante a Série de Conteúdo Intensivo:
 - Bônus 1: Protocolo Anti-Inchaço de 7 dias (PDF)
 - Bônus 2: 1 sessão de check-in ao vivo (30 dias após a entrada)
 Janela: 09 a 14/mai — 6 dias com vagas limitadas
@@ -67,21 +67,21 @@ Objetivo: criar identificação forte com a dor antes da semana de oferta. Alcan
 - Posts Canva (2): Frase de identificação para o público compartilhar
 
 ---
-**Semana 2 (08–14/mai) — PICO: Maratona de Lives + Dia das Mães — Foco: Conversão**
+**Semana 2 (08–14/mai) — PICO: Série de Conteúdo Intensivo + Dia das Mães — Foco: Conversão**
 
 Objetivo: Executar a campanha PICO com 3 lives + abertura do Método Reino.
 
-**Estrutura da Maratona de Lives:**
-- **Live 1 — 09/mai (sáb):** "SOP, endometriose e peso: a verdade que ninguém te contou" ← topo, educativa, gratuita, alcance máximo
-- **Live 2 — 11/mai (seg — Dia das Mães):** "Mãe que cuida de si é mãe mais presente: hormônios em foco" ← emocional, conexão máxima, apresenta o método
-- **Live 3 — 13/mai (qua):** "Método Reino: como funciona, o que inclui e abertura de vagas" ← oferta direta, quebra de objeções ao vivo
+**Estrutura da Série de Conteúdo Intensivo:**
+- **Reel 1 — 09/mai (sáb):** "SOP, endometriose e peso: a verdade que nenhuma dieta te contou" ← reel gravado, educativo, topo de funil, alcance máximo
+- **Reel 2 — 11/mai (seg — Dia das Mães):** "Mãe que cuida de si é mãe mais presente: hormônios em foco" ← emocional, conexão máxima, apresenta o método
+- **Reel 3 — 13/mai (qua):** "O que é o Método Reino e como ele funciona" ← apresentação do método em formato de vídeo gravado
 
-- Post estático 1: Convite para a Live 1 — gancho educativo (postar 07/mai)
-- Post estático 2: Dia das Mães — post emocional de Dia das Mães + CTA consulta (postar 11/mai)
+- Post estático 1: Abertura da série — gancho educativo (postar 08/mai)
+- Post estático 2: Dia das Mães — post emocional + CTA consulta (postar 11/mai)
 - Post estático 3: Abertura oficial do Método Reino — urgência + bônus (postar 12/mai)
 - Carrossel 1: "Resultado real: o que mudou em 90 dias no Método Reino" — prova social
-- Stories (diários): Convite às lives + contagem regressiva + bastidor + urgência de vagas
-- Reel 1: Trailer da Maratona — gancho em 3 segundos + o que a audiência vai aprender
+- Stories (diários): Bastidor de criação dos reels + contagem regressiva da oferta + urgência de vagas
+- Carrossel 2: "Método Reino: perguntas e respostas" — quebra de objeções (postar 13/mai)
 
 ---
 **Semana 3 (15–21/mai) — "Você veio na live. E agora?" — Foco: Meio de Funil**

@@ -163,8 +163,8 @@ Depoimentos, resultados reais, bastidores do método, cases de pacientes.
 ## 7. Detalhamento das Campanhas PICO
 
 ### PICO 1 — Janeiro semana 2
-**Campanha:** Minicurso gratuito "Destrava o Hormônio em 3 Dias"
-**Formato:** Sequência de 3 lives ou vídeos fechados no Instagram/WhatsApp
+**Campanha:** Minicurso Gravado "Destrava o Hormônio em 3 Dias"
+**Formato:** 3 reels/vídeos gravados publicados em dias seguidos (seg/qua/sex) + grupo fechado no WhatsApp com bônus exclusivo para inscritos
 **Oferta ao final:** E-book (R$47) com protocolo detalhado
 **Aquecimento (sem 1):** Posts de identificação de dor — "você sofre com isso?"
 **CTA:** "Inscreva-se pelo link na bio"
@@ -184,13 +184,13 @@ Depoimentos, resultados reais, bastidores do método, cases de pacientes.
 ---
 
 ### PICO 3 — Maio semana 2
-**Campanha:** Maratona de Lives "Hormônios que Ninguém te Contou"
-**Formato:** 3 lives abertas (tópicos: SOP, compulsão noturna, emagrecimento hormonal)
+**Campanha:** Série de Conteúdo Intensivo "Hormônios que Ninguém te Contou"
+**Formato:** 3 reels educativos gravados (seg/qua/sex) + 2 carrosseis aprofundados + sequência de stories diários + oferta do Método Reino na qui/sex
 **Gancho:** Dia das Mães (11/05) + Mês da Saúde da Mulher
 **Oferta ao final:** Método Reino Trimestral (R$600) ou consulta
-**Aquecimento (sem 1):** Stories de bastidor, posts de prova social
-**CTA:** "Reserva seu lugar pelo link na bio"
-**Meta:** 500 visualizações → 15 vendas Método Reino = R$9.000
+**Aquecimento (sem 1):** Posts de identificação de dor + prova social
+**CTA:** "Manda MÉTODO no DM"
+**Meta:** 15 vendas Método Reino = R$9.000
 
 ---
 
@@ -205,8 +205,8 @@ Depoimentos, resultados reais, bastidores do método, cases de pacientes.
 ---
 
 ### PICO 5 — Setembro semana 1
-**Campanha:** Imersão Fechada "Primavera Hormonal — 7 Dias"
-**Formato:** Grupo no Telegram ou Instagram fechado
+**Campanha:** Desafio Instagram Fechado "Primavera Hormonal — 5 Dias"
+**Formato:** Close Friends no Instagram, 1 conteúdo por dia (carrossel ou reel gravado) + grupo de suporte no WhatsApp
 **Oferta ao final:** Método Reino Trimestral (R$600)
 **Aquecimento (agosto sem 3–4):** Resultados de quem fez o método + posts de primavera hormonal
 **CTA:** "Lista VIP pelo link na bio"

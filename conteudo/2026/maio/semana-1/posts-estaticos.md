@@ -99,39 +99,39 @@ HASHTAGS:
 ───────────────────────────────
 POST ESTÁTICO 3
 Publicar: 07/mai (quinta)
-Intenção: convite para a Maratona de Lives da semana 2 — urgência e clareza
+Intenção: convite para a Série de Conteúdo Intensivo da semana 2 — urgência e clareza
 Pilar: Prova e Resultado
 ───────────────────────────────
 TEXTO DA IMAGEM:
-Maratona de Lives
+Série Especial
 Hormônios que Ninguém
 te Contou
 09 · 11 · 13 de maio — GRATUITO
 
 LEGENDA COMPLETA:
-Na semana que vem faço 3 lives gratuitas sobre o que mais me perguntam — e o que quase ninguém fala com clareza.
+Na semana que vem publico 3 vídeos sobre o que mais me perguntam — e o que quase ninguém fala com clareza.
 
-Live 1 — sábado, 09/mai:
+Vídeo 1 — sábado, 09/mai:
 "SOP, endometriose e peso: a verdade que nenhuma dieta te contou"
 
-Live 2 — segunda, 11/mai (Dia das Mães):
+Vídeo 2 — segunda, 11/mai (Dia das Mães):
 "Mãe que cuida de si é mãe mais presente: hormônios em foco"
 
-Live 3 — quarta, 13/mai:
+Vídeo 3 — quarta, 13/mai:
 "Método Reino: como funciona + abertura de vagas"
 
-São 3 aulas ao vivo, gratuitas, direto ao ponto.
+São 3 vídeos gravados, gratuitos, direto ao ponto.
 
 Sem enrolação.
 Sem venda disfarçada de conteúdo.
 Só o que você precisa entender para parar de lutar contra o próprio corpo.
 
-Inscrição gratuita pelo link na bio — garante o lembrete para não perder.
+Ativa o sininho para não perder nenhum.
 
 CTA:
-Comenta QUERO aqui que eu te mando o link direto no DM.
+Comenta QUERO aqui que eu te aviso quando sair cada vídeo.
 
 HASHTAGS:
-#livesaúde #livehormônios #sop #endometriose #saudedamulher #nutriçãofuncional #emagrecimentosaudável #nutricionistafuncional #hormônios #métodoreino #maratonadelives #saudeintegrativa #mulherempreendedora #diadasmaes #saúdehormonal
+#saudehormonal #sop #endometriose #saudedamulher #nutriçãofuncional #emagrecimentosaudável #nutricionistafuncional #hormônios #métodoreino #seriespecial #saudeintegrativa #mulherempreendedora #diadasmaes #saúdehormonal #regulaçãohormonal
 ───────────────────────────────
 ```

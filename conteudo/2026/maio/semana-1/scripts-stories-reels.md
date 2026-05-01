@@ -62,28 +62,28 @@ Tipo: bastidor + convite oficial para a Maratona
 Intenção: criar proximidade e gerar inscrições para as lives
 ───────────────────────────────
 FRAME 1:
-Visual: Juliana em bastidor real (preparando slides, anotações, ambiente de trabalho)
-Fala/Texto na tela: "Estou preparando a Maratona de Lives da semana que vem."
+Visual: Juliana em bastidor real (gravando, editando, mesa de trabalho)
+Fala/Texto na tela: "Essa semana publico uma série de vídeos sobre hormônios."
 [pausa]
-"São 3 lives. Gratuitas. Sem enrolação."
+"São 3 vídeos. Gratuitos. Sem enrolação."
 
 FRAME 2:
 Visual: fundo escuro (preto ou azul-marinho), texto em branco, fonte clean
 Texto na tela (em caps):
-LIVE 1 — SÁB 09/05
+VÍDEO 1 — SÁB 09/05
 SOP, ENDOMETRIOSE E PESO
 
-LIVE 2 — SEG 11/05 (DIA DAS MÃES)
+VÍDEO 2 — SEG 11/05 (DIA DAS MÃES)
 MÃE QUE CUIDA DE SI
 
-LIVE 3 — QUA 13/05
+VÍDEO 3 — QUA 13/05
 MÉTODO REINO — ABERTURA DE VAGAS
 
 FRAME 3:
 Visual: Juliana de volta à câmera, sorrindo
-Fala/Texto na tela: "Inscrição gratuita no link da bio — garante o lembrete."
-Sticker/Ação: link sticker direcionando para a inscrição
-Texto abaixo: "Ou comenta QUERO aqui que eu te mando direto"
+Fala/Texto na tela: "Ativa o sininho para não perder. Saem no feed."
+Sticker/Ação: emoji de sino + link sticker do perfil
+Texto abaixo: "Comenta QUERO aqui que eu te aviso quando sair cada um"
 ───────────────────────────────
 ```
 

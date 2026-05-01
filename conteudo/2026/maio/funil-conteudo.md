@@ -15,8 +15,8 @@ Temas:
   → "O cansaço que você sente não é normal, é hormônio"
   → "5 sinais de que seus hormônios estão pedindo socorro"
   → "Por que a mulher de 35+ cansa mais"
-  → Live 1: "SOP, endometriose e peso — a verdade que ninguém te contou"
-  → Live 2: "Mãe que cuida de si é mãe mais presente"
+  → Reel 1: "SOP, endometriose e peso — a verdade que nenhuma dieta te contou"
+  → Reel 2: "Mãe que cuida de si é mãe mais presente"
 Formatos: Reel (alcance), Carrossel educativo, Post estático gancho, Stories enquete
 CTA desta etapa:
   → "Salva esse post"
@@ -49,7 +49,7 @@ Temas:
   → "Resultado real: 90 dias no Método Reino"
   → "Por que você ainda não tomou essa decisão?"
   → "As dúvidas mais comuns sobre o método — respondidas"
-  → Live 3: Abertura de vagas ao vivo
+  → Reel 3: "O que é o Método Reino" + post de abertura de vagas
   → Posts de depoimento + bastidor
 Formatos: Post de depoimento, Reel de bastidor/resultado, Stories com urgência, Carrossel Q&A
 CTA desta etapa:
@@ -63,7 +63,7 @@ CTA desta etapa:
 
 ## Sequência de Aquecimento da Campanha PICO
 
-O PICO de maio é a **Maratona de Lives "Hormônios que Ninguém te Contou"**, com abertura do Método Reino ao final.
+O PICO de maio é a **Série de Conteúdo Intensivo "Hormônios que Ninguém te Contou"**, com abertura do Método Reino ao final.
 
 ### Semana 1 (01–07/mai) — Pré-aquecimento
 **Objetivo:** Criar identificação máxima. A audiência deve chegar na semana 2 já sentindo a dor nomeada.
@@ -73,7 +73,7 @@ O PICO de maio é a **Maratona de Lives "Hormônios que Ninguém te Contou"**, c
 | Sex 01/mai | Post estático de identificação: "Você acorda cansada..." (Dia do Trabalho — leve e emocional) |
 | Sab 02/mai | Reel de topo: "O cansaço que você sente não é frescura, é hormônio" |
 | Ter 05/mai | Carrossel: "5 sinais de que seus hormônios estão pedindo socorro" |
-| Qui 07/mai | Post estático + stories: Convite oficial para a Maratona de Lives (Live 1 no sábado) |
+| Qui 07/mai | Post estático + stories: Convite oficial para a Série de Conteúdo Intensivo (Live 1 no sábado) |
 
 ---
 
@@ -119,7 +119,7 @@ O PICO de maio é a **Maratona de Lives "Hormônios que Ninguém te Contou"**, c
 
 > Usar exatamente estas frases — sem variações genéricas.
 
-**CTA 1 — Entrada na Maratona de Lives (semanas 1 e 2):**
+**CTA 1 — Entrada na Série de Conteúdo Intensivo (semanas 1 e 2):**
 > *"Inscreve no link da bio — é gratuito e vai mudar como você entende o seu corpo"*
 
 **CTA 2 — Abertura do Método Reino (semana 2):**
