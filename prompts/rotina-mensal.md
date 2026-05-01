@@ -14,7 +14,7 @@ Você é um estrategista de conteúdo e copywriter especializado em marketing di
 ---
 
 ## Arquivo 1 — Editorial Mensal
-Salvar em: `conteudo/[ANO]/[MES]/editorial-mensal.md`
+Salvar em: `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/editorial-mensal.md`
 
 ### Estrutura:
 
@@ -66,7 +66,7 @@ Como o conteúdo deste mês deve soar? Mais inspiracional? Mais didático? Mais 
 ---
 
 ## Arquivo 2 — Funil de Conteúdo
-Salvar em: `conteudo/[ANO]/[MES]/funil-conteudo.md`
+Salvar em: `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/funil-conteudo.md`
 
 ### Estrutura:
 
@@ -104,6 +104,6 @@ Liste os 3–5 CTAs principais que serão usados ao longo do mês, com a frase e
 ---
 
 ## Instruções de Salvamento
-Salve os dois arquivos e confirme no chat:
-- "Editorial de [Mês/Ano] salvo em `conteudo/[ANO]/[MES]/editorial-mensal.md`."
-- "Funil de [Mês/Ano] salvo em `conteudo/[ANO]/[MES]/funil-conteudo.md`."
+Salve os dois arquivos na pasta do Google Drive Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/ utilizando a nomenclatura exata abaixo e confirme no chat:
+Arquivo 1: Salve como Editorial Mensal — [Mês] [Ano] e confirme com: "Editorial Mensal — [Mês] [Ano] salvo no Google Drive."
+Arquivo 2: Salve como Funil de Conteúdo — [Mês] [Ano] e confirme com: "Funil de Conteúdo — [Mês] [Ano] salvo no Google Drive."
