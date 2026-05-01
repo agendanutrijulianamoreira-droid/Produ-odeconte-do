@@ -150,6 +150,37 @@ Os 4 arquivos gerados:
 
 ---
 
+## Máquina de Vendas — Framework de Operação
+
+Todo mês e toda semana operam dentro de três engrenagens. Ao gerar conteúdo, sempre identifique em qual engrenagem a semana está:
+
+### BASAL (toda semana)
+Ações recorrentes para garantir o piso de receita: ISCAA (conteúdo isca), Dia V (dia fixo de venda — toda quinta), Sessão Clareza Online (call gratuita → consulta paga), Sessão Clareza em Áudio (áudio estratégico no WhatsApp), Tráfego Pago, Parcerias, Google Meu Negócio. O conteúdo semanal deve sempre alimentar pelo menos o ISCAA e o Dia V.
+
+### PICO (semanas específicas no calendário)
+Campanhas de aceleração com aquecimento + janela de venda + oferta com prazo. Formatos: Desafio WhatsApp, Desafio IG fechado, Maratona de lives, Imersão fechada, Minicurso. O conteúdo da semana PICO é 100% focado em conversão.
+
+### OPERAÇÃO LIMPA MESA (semanas específicas no calendário)
+Recuperação de leads quentes que não compraram. Funil de pressão no WhatsApp com argumento sazonal. O conteúdo da semana apoia a reativação com prova social e quebra de objeções.
+
+### Calendário de eventos especiais (além do Basal semanal):
+| Mês | Semana especial | Tipo |
+|-----|----------------|------|
+| Janeiro | Semana 2 | PICO |
+| Janeiro | Semana 4 | LIMPA MESA |
+| Março | Semana 2 | PICO |
+| Abril | Semana 4 | LIMPA MESA |
+| Maio | Semana 2 | PICO |
+| Junho | Semana 1 | Estirão de Crescimento (topo de funil intenso) |
+| Julho | Semana 2 | PICO |
+| Julho | Semana 4 | LIMPA MESA |
+| Setembro | Semana 1 | PICO |
+| Outubro | Semana 4 | PICO |
+| Novembro | Semana 1 | LIMPA MESA |
+| Dezembro | Semana 1 | Estirão de Crescimento |
+
+---
+
 ## Regras Gerais para Geração de Conteúdo
 
 1. **Nunca invente dados ou estatísticas** sem indicar que é exemplo.
