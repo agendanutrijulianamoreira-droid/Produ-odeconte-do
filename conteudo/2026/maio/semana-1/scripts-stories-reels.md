@@ -1,5 +1,5 @@
 # Scripts de Stories e Reels — Semana 1 / Maio 2026
-**01–07/mai | Tema: O corpo da mulher que faz tudo por todos | Foco: Topo de Funil**
+**01–07/mai | Tema: O corpo da mulher que faz tudo por todos | Foco: Topo de Funil | Tipo: BASAL (pré-aquecimento para PICO Semana 2)**
 
 ---
 
@@ -9,23 +9,23 @@
 ───────────────────────────────
 STORY 1
 Publicar: 02/mai (sábado)
-Tipo: enquete de identificação
-Intenção: medir dor do público + gerar dados para personalizar a Maratona de Lives
+Tipo: enquete de identificação de dor
+Intenção: mapear o sintoma mais presente na audiência + gerar engajamento de topo
 ───────────────────────────────
 FRAME 1:
 Visual: Juliana de frente para a câmera, tom direto e próximo, fundo neutro
-Fala/Texto na tela: "Deixa eu te fazer uma pergunta rápida →"
-Sticker/Ação: seta de arrasta para o lado
+Fala/Texto na tela: "Deixa eu te fazer uma pergunta rápida"
+Sticker/Ação: seta apontando para o próximo frame
 
 FRAME 2:
-Visual: fundo claro, texto centralizado em fonte bold
-Fala/Texto na tela: "Qual desses sintomas mais te incomoda AGORA?"
+Visual: fundo claro creme, texto centralizado em fonte bold, sem emojis no texto
+Fala/Texto na tela: "QUAL DESSES SINTOMAS MAIS TE INCOMODA AGORA?"
 Sticker/Ação: enquete com 4 opções:
-  🥱 Cansaço que não passa
-  🫃 Inchaço todo dia
-  🌙 Compulsão à noite
-  😤 Ciclo bagunçado
-Texto pequeno embaixo: "Vou usar as respostas pra montar a live da semana que vem"
+  Cansaço que não passa
+  Inchaço todo dia
+  Compulsão à noite
+  Ciclo bagunçado
+Texto pequeno abaixo: "Vou usar as respostas para guiar o conteúdo da semana"
 ───────────────────────────────
 ```
 
@@ -35,20 +35,22 @@ Texto pequeno embaixo: "Vou usar as respostas pra montar a live da semana que ve
 ───────────────────────────────
 STORY 2
 Publicar: 05/mai (terça)
-Tipo: caixa de perguntas — aquecimento para a Maratona de Lives
-Intenção: coletar dúvidas reais para usar ao vivo + criar antecipação
+Tipo: caixa de perguntas — aquecimento para a Série de Conteúdo Intensivo
+Intenção: coletar dúvidas reais para usar nos vídeos da semana 2 + criar antecipação
 ───────────────────────────────
 FRAME 1:
 Visual: Juliana em ambiente casual (mesa, consultório ou sofá), tom conversacional
-Fala/Texto na tela: "Semana que vem tem Maratona de Lives sobre hormônios."
+Fala/Texto na tela: "Semana que vem publico uma Série de Conteúdo Intensivo
+sobre hormônios."
 [pausa]
-"Quero saber o que você mais quer entender."
+"Quero saber o que você mais quer entender antes."
 
 FRAME 2:
-Visual: fundo neutro, texto limpo
-Fala/Texto na tela: "Me manda sua dúvida aqui:"
+Visual: fundo neutro bege, texto limpo, sem emojis no texto
+Fala/Texto na tela: "ME MANDA SUA DUVIDA AQUI:"
 Sticker/Ação: caixa de perguntas aberta
-Texto abaixo da caixa: "Vou responder as melhores ao vivo — pode mandar qualquer coisa sobre SOP, inchaço, peso, hormônios, compulsão"
+Texto abaixo da caixa: "Vou usar as melhores dúvidas nos 3 vídeos que saem
+semana que vem. Pode mandar sobre SOP, inchaço, peso, hormônios ou compulsão."
 ───────────────────────────────
 ```
 
@@ -58,29 +60,29 @@ Texto abaixo da caixa: "Vou responder as melhores ao vivo — pode mandar qualqu
 ───────────────────────────────
 STORY 3
 Publicar: 07/mai (quinta) — mesmo dia do post convite
-Tipo: bastidor + convite oficial para a Maratona
-Intenção: criar proximidade e gerar inscrições para as lives
+Tipo: bastidor + convite oficial para a Série de Conteúdo Intensivo
+Intenção: criar proximidade e gerar ativação do sininho para os 3 vídeos
 ───────────────────────────────
 FRAME 1:
 Visual: Juliana em bastidor real (gravando, editando, mesa de trabalho)
-Fala/Texto na tela: "Essa semana publico uma série de vídeos sobre hormônios."
+Fala/Texto na tela: "Essa semana gravei uma série de 3 vídeos sobre hormônios."
 [pausa]
-"São 3 vídeos. Gratuitos. Sem enrolação."
+"São gratuitos. Saem no feed. Sem enrolação."
 
 FRAME 2:
-Visual: fundo escuro (preto ou azul-marinho), texto em branco, fonte clean
+Visual: fundo escuro marrom (#2B1A10), texto em creme (#F4EFE4), fonte bold, sem emojis
 Texto na tela (em caps):
-VÍDEO 1 — SÁB 09/05
+VÍDEO 1 | SÁB 09/05
 SOP, ENDOMETRIOSE E PESO
 
-VÍDEO 2 — SEG 11/05 (DIA DAS MÃES)
-MÃE QUE CUIDA DE SI
+VÍDEO 2 | SEG 11/05
+MAE QUE CUIDA DE SI
 
-VÍDEO 3 — QUA 13/05
-MÉTODO REINO — ABERTURA DE VAGAS
+VÍDEO 3 | QUA 13/05
+MÉTODO REINO: ABERTURA DE VAGAS
 
 FRAME 3:
-Visual: Juliana de volta à câmera, sorrindo
+Visual: Juliana de volta à câmera, tom direto
 Fala/Texto na tela: "Ativa o sininho para não perder. Saem no feed."
 Sticker/Ação: emoji de sino + link sticker do perfil
 Texto abaixo: "Comenta QUERO aqui que eu te aviso quando sair cada um"
@@ -96,14 +98,15 @@ Texto abaixo: "Comenta QUERO aqui que eu te aviso quando sair cada um"
 REEL 1
 Publicar: 02/mai (sábado)
 Duração estimada: 45 segundos
-Formato: fala direta para câmera, cortes rápidos, sem trilha ou trilha ambiente neutra
+Formato: fala direta para câmera, cortes rápidos
 Gancho (primeiros 3 segundos): "Você acha que está cansada porque é fraca. Não é."
 Trilha sugerida: voz sem fundo musical (mais autoridade) ou som ambiente suave
 ───────────────────────────────
 
 CENA 1 — [0:00–0:05]
 Visual: Juliana de frente, enquadramento próximo no rosto, fundo limpo
-Fala: "Você acha que está cansada porque é fraca. Porque não se organiza. Porque não dorme cedo o suficiente."
+Fala: "Você acha que está cansada porque é fraca. Porque não se organiza.
+Porque não dorme cedo o suficiente."
 Texto na tela: VOCÊ ACHA QUE É FRAQUEZA.
 [pausa]
 
@@ -116,9 +119,10 @@ Texto na tela: TEM UMA CAUSA REAL.
 
 CENA 3 — [0:09–0:22]
 Visual: corte, Juliana um pouco mais próxima da câmera
-Fala: "Cortisol elevado. Progesterona baixa. Insulina resistente. Tireóide lenta."
+Fala: "Cortisol elevado. Progesterona baixa. Insulina resistente. Tireoide lenta."
 [pausa]
-Fala: "Quando qualquer um desses está fora do lugar, o seu corpo entra em modo de sobrevivência. Ele economiza energia. Segura o peso. Inflama."
+Fala: "Quando qualquer um desses está fora do lugar, o seu corpo entra em modo
+de sobrevivência. Ele economiza energia. Segura o peso. Inflama."
 Texto na tela: SEU CORPO ESTÁ SE PROTEGENDO.
 
 CENA 4 — [0:22–0:34]
@@ -126,26 +130,27 @@ Visual: Juliana se aproxima da câmera, tom de quem vai revelar algo importante
 Fala: "E aí você faz mais dieta, mais academia, mais força de vontade."
 [pausa]
 Fala: "E piora."
-Texto na tela: MAIS ESFORÇO → MENOS RESULTADO.
+Texto na tela: MAIS ESFORÇO. MENOS RESULTADO.
 
 CENA FINAL — [0:34–0:45]
 Visual: enquadramento aberto, tom de solução
-Fala: "Isso muda quando você trata a causa — não o sintoma. E começa entendendo o que está acontecendo no seu próprio corpo."
+Fala: "Isso muda quando você trata a causa e não o sintoma.
+Começa entendendo o que está acontecendo no seu próprio corpo."
 Texto na tela: A SOLUÇÃO COMEÇA PELO DIAGNÓSTICO CERTO.
 [pausa]
-Fala: "Semana que vem eu explico tudo ao vivo. Gratuito. Link na bio."
+Fala: "Semana que vem publico 3 vídeos gratuitos sobre isso. Ativa o sininho."
 ───────────────────────────────
 
 LEGENDA DO REEL:
 O cansaço que não passa com café, férias ou academia tem outra causa.
 E ela é tratável.
 
-Maratona de lives gratuita semana que vem — 09, 11 e 13 de maio.
-Inscrição no link da bio.
+Série de Conteúdo Intensivo começa no dia 09/mai.
+3 vídeos gratuitos no feed. Ativa o sininho para não perder.
 
 HASHTAGS:
-#sop #hormôniosfemininos #cansaçofeminino #saudehormonal #cortisol #emagrecimentofeminino
-#nutriçãofuncional #tireóide #saudeintegrativa #nutricionista #regulaçãohormonal
-#endometriose #mulherempreendedora #maratonadelives #hormônios
+#sop #hormôniosfemininos #cansaçofeminino #saudehormonal #cortisol
+#emagrecimentofeminino #nutriçãofuncional #tireoide #saudeintegrativa
+#nutricionista #regulaçãohormonal #endometriose #mulherempreendedora #hormônios
 ───────────────────────────────
 ```
