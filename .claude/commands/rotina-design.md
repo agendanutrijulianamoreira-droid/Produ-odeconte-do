@@ -1,61 +1,112 @@
-Cria os designs da semana diretamente no Canva.
+Gera os PDFs de design para a semana especificada em $ARGUMENTS.
 
 ## Passos obrigatórios
 
 1. Determine semana, mês e ano a partir de `$ARGUMENTS` (ex: "semana 1 maio 2026"). Se vazio, use a semana atual.
 2. Verifique se `conteudo/$ANO/$MES/semana-$N/carrossel.md` existe. Se não existir, instrua a rodar `/rotina-semanal` primeiro.
-3. Leia os arquivos de conteúdo da semana:
-   - `conteudo/$ANO/$MES/semana-$N/carrossel.md`
-   - `conteudo/$ANO/$MES/semana-$N/posts-estaticos.md`
-   - `conteudo/$ANO/$MES/semana-$N/posts-simples-canva.md`
-4. Use a ferramenta `list-brand-kits` do Canva para verificar se existe um brand kit disponível. Se sim, use-o em todos os designs.
-5. Crie os designs no Canva usando a ferramenta `generate-design` com `design_type: "instagram_post"` para cada bloco de conteúdo:
-
-   **A) Carrossel** — 1 design por slide do carrossel.md:
-   - Para cada slide (capa + conteúdo + CTA), crie um `instagram_post` separado
-   - Query: descreva o slide com título, texto e identidade visual: fundo cream (#F4EFE4), texto marrom escuro (#2B1A10), destaques em ouro (#C9A435), tipografia Georgia, tamanho 1080×1350px (proporção 4:5)
-   - Sem imagens — apenas tipografia e layout limpo
-
-   **B) Posts Estáticos** — 1 design por post em posts-estaticos.md:
-   - Para cada post, crie um `instagram_post`
-   - Inclua o texto principal e o CTA na query
-   - Mesma identidade visual acima
-
-   **C) Posts Canva** — 1 design por frase em posts-simples-canva.md:
-   - Para cada frase curta, crie um `instagram_post` com a frase centralizada
-   - Fundo na cor sugerida no arquivo (ou #F4EFE4 por padrão)
-   - Texto em no máximo 10 palavras visíveis
-
-6. Para cada design gerado, use `create-design-from-candidate` para salvar no Canva e obter o link.
-7. Salve os links em `conteudo/$ANO/$MES/semana-$N/designs/links-canva.md` no formato:
+3. Leia os arquivos de conteúdo da semana (`posts-estaticos.md`, `carrossel.md`, `posts-simples-canva.md`).
+4. Crie a pasta `conteudo/$ANO/$MES/semana-$N/designs/` se não existir.
+5. Gere os 3 arquivos JSON de slides:
+   - `designs/carrossel.json`
+   - `designs/posts-estaticos.json`
+   - `designs/posts-canva.json`
+6. Para cada JSON, execute:
    ```
-   # Links Canva — Semana $N $MES $ANO
-
-   ## Carrossel
-   - Slide 1: [link]
-   - Slide 2: [link]
-   ...
-
-   ## Posts Estáticos
-   - Post 1 — [título]: [link]
-   ...
-
-   ## Posts Canva
-   - Frase 1: [link]
-   ...
+   python3 scripts/gerar-slides.py conteudo/$ANO/$MES/semana-$N/designs/<arquivo>.json conteudo/$ANO/$MES/semana-$N/designs/<nome>.pdf
    ```
-8. Faça commit com a mensagem: `feat: designs canva semana $N $MES $ANO`
-9. Confirme no chat os links gerados e oriente a abrir cada um no Canva para editar se necessário.
+7. Confirme no chat os 3 PDFs gerados com caminho completo.
 
-## Identidade visual (sempre respeitar)
-- Fundo: #F4EFE4 (cream)
-- Texto principal: #2B1A10 (marrom escuro)
-- Destaque/ouro: #C9A435
-- Tipografia: Georgia
-- Proporção: 4:5 — 1080×1350px (equivalente a 2160×2700px em alta resolução)
-- Handle: @nutridamulhermoderna
-- Nome: Juliana Moreira | Nutricionista | 2026
-- Sem imagens geradas — apenas tipografia e layout limpo
+---
+
+## Tipos de slide disponíveis
+
+### `editorial` — **tipo principal** (padrão para posts estáticos)
+Texto corrido em 1–2 parágrafos com bold inline para ênfase. Limpo, direto, sem enfeites.
+Hook obrigatório: a primeira frase já deve parar o scroll.
+
+```json
+{
+  "tipo": "editorial",
+  "blocos": [
+    "Mulheres com SOP têm <strong>resistência à insulina</strong> mesmo sem comer mal.",
+    "Isso significa que o corpo armazena gordura com muito mais facilidade. <strong>Não é falta de força de vontade. É bioquímica.</strong>"
+  ]
+}
+```
+
+### `frase` — hook de impacto imediato (posts simples Canva)
+Uma frase grande que para o scroll + complemento opcional menor.
+Use `<em>` para destaque em dourado/itálico, `<strong>` para negrito.
+
+```json
+{
+  "tipo": "frase",
+  "gancho": "Seu corpo não está errado. <em>O protocolo estava.</em>",
+  "complemento": "A diferença entre frustração e resultado é ter um plano feito pra você."
+}
+```
+
+### `capa` — abertura do carrossel
+Label pequeno + título grande. Deve gerar curiosidade imediata.
+
+```json
+{
+  "tipo": "capa",
+  "label": "3 sinais que seu corpo está pedindo ajuda",
+  "titulo": "Você ignora porque <em>parece normal</em>."
+}
+```
+
+### `conteudo` — slides numerados do carrossel
+Número grande decorativo + título + texto explicativo.
+
+```json
+{
+  "tipo": "conteudo",
+  "numero": "01",
+  "titulo": "Inchaço que não passa",
+  "texto": "Não é água parada. É <strong>inflamação crônica</strong> — e ela responde à alimentação."
+}
+```
+
+### `destaque` — barra escura + texto (para slides de ruptura dentro do carrossel)
+Barra marrom escura no topo com frase curta + parágrafo de desenvolvimento.
+
+```json
+{
+  "tipo": "destaque",
+  "barra": "Como foi <em>construído:</em>",
+  "texto": "Com <strong>protocolo hormonal individualizado</strong>, ajustado semana a semana.",
+  "rodape": "Cada peça no lugar certo."
+}
+```
+
+### `cta` — chamada final para ação
+Tag + título + instrução + botão.
+
+```json
+{
+  "tipo": "cta",
+  "tag": "Próximo passo",
+  "titulo": "Quer saber o que está travando o seu corpo?",
+  "instrucao": "Clique no link da bio e agende sua Sessão Clareza.",
+  "cta": "Quero entender meu corpo →"
+}
+```
+
+---
+
+## Regras de conteúdo (sempre respeitar)
+
+- **Hook nos primeiros 3 segundos**: a primeira frase de todo post `editorial` ou `frase` deve ser uma afirmação que para o scroll — específica, provocativa ou surpreendente. Nunca comece com "Você sabia que...".
+- **Bold estratégico**: negrite apenas 2–4 palavras por bloco, as que carregam o peso da frase.
+- **Sem travessões** no texto dos slides. Use vírgula ou ponto.
+- **Sem emojis** no texto dos slides.
+- **Máx. 2 parágrafos** por slide `editorial`.
+- **Posts simples Canva** usam `frase` com gancho de no máximo 12 palavras.
+- Identidade visual (automática via script): fundo #F5F1EB, texto #1A1209, dourado #C9A435, header e footer automáticos.
+
+---
 
 ## Como usar
 `/rotina-design` → gera para a semana atual

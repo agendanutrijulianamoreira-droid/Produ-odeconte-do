@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
 Gerador de slides em PDF para posts do Instagram.
-Proporção 4:5 (2160x2700px) — fundo limpo, pronto para editar no Canva.
+Proporção 4:5 (2160x2700px) — tipografia editorial limpa, sem fotos.
 Uso: python3 scripts/gerar-slides.py <arquivo_json_de_slides> <saida.pdf>
 """
 
 import sys
 import json
-import os
 from weasyprint import HTML, CSS
 
 HANDLE = "@nutridamulhermoderna"
@@ -27,16 +26,17 @@ body {
     background: #fff;
 }
 
+/* ── Slide base ── */
 .slide {
     width: 2160px;
     height: 2700px;
     display: flex;
     flex-direction: column;
-    padding: 72px 80px;
+    padding: 144px 176px;
     page-break-after: always;
     page-break-inside: avoid;
     position: relative;
-    background: #FAF8F4;
+    background: #F5F1EB;
 }
 
 /* ── Header ── */
@@ -45,21 +45,10 @@ body {
     justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    color: #999;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #E8E0D6;
-}
-
-/* ── Body ── */
-.body {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 28px;
+    font-size: 40px;
+    color: #7A7068;
+    letter-spacing: 0.04em;
+    padding-bottom: 72px;
 }
 
 /* ── Footer ── */
@@ -68,115 +57,204 @@ body {
     justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    color: #999;
+    font-size: 40px;
+    color: #7A7068;
     letter-spacing: 0.04em;
-    padding-top: 40px;
-    border-top: 1px solid #E8E0D6;
+    padding-top: 72px;
 }
 
-/* ── Tipos de slide ── */
+/* ── Body ── */
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-/* CAPA */
+/* ════════════════════════════════════════
+   EDITORIAL — texto corrido com bold inline
+   (Modelo principal — padrão imagem 1)
+   ════════════════════════════════════════ */
+.slide-editorial .body {
+    gap: 64px;
+    justify-content: center;
+}
+.slide-editorial .bloco {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    line-height: 1.45;
+    color: #1A1209;
+    font-weight: normal;
+}
+.slide-editorial .bloco strong {
+    font-weight: bold;
+    color: #1A1209;
+}
+.slide-editorial .bloco em {
+    font-style: italic;
+    color: #B08A6A;
+}
+
+/* ════════════════════════════════════════
+   FRASE — hook de 1 linha, impacto imediato
+   ════════════════════════════════════════ */
+.slide-frase .body {
+    justify-content: center;
+    gap: 48px;
+}
+.slide-frase .gancho {
+    font-family: Georgia, serif;
+    font-size: 128px;
+    line-height: 1.12;
+    color: #1A1209;
+    font-weight: normal;
+}
+.slide-frase .gancho strong {
+    font-weight: bold;
+}
+.slide-frase .gancho em {
+    font-style: italic;
+    color: #C9A435;
+}
+.slide-frase .complemento {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 68px;
+    line-height: 1.5;
+    color: #4A3F35;
+}
+
+/* ════════════════════════════════════════
+   CAPA — abertura do carrossel
+   ════════════════════════════════════════ */
 .slide-capa .body {
-    gap: 36px;
+    gap: 48px;
     justify-content: flex-end;
-    padding-bottom: 20px;
+    padding-bottom: 32px;
 }
 .slide-capa .label {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    letter-spacing: 0.12em;
+    font-size: 44px;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: #B08A6A;
 }
 .slide-capa h1 {
-    font-size: 76px;
-    line-height: 1.08;
+    font-size: 136px;
+    line-height: 1.06;
     color: #1A1209;
     font-weight: normal;
 }
 .slide-capa h1 em {
-    color: #B08A6A;
+    color: #C9A435;
     font-style: italic;
 }
+.slide-capa h1 strong {
+    font-weight: bold;
+}
 
-/* CONTEÚDO */
+/* ════════════════════════════════════════
+   CONTEUDO — slides de carrossel numerados
+   ════════════════════════════════════════ */
 .slide-conteudo .numero {
-    font-size: 120px;
+    font-size: 200px;
     color: #EDE5D8;
     line-height: 1;
     font-family: Georgia, serif;
-    margin-bottom: -16px;
+    margin-bottom: -32px;
 }
 .slide-conteudo h2 {
-    font-size: 54px;
-    line-height: 1.15;
+    font-size: 96px;
+    line-height: 1.12;
     color: #1A1209;
     font-weight: bold;
 }
 .slide-conteudo .texto {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    line-height: 1.65;
+    font-size: 64px;
+    line-height: 1.55;
     color: #4A3F35;
+    margin-top: 24px;
 }
-
-/* TEXTO PURO (sem número) */
-.slide-texto .titulo {
-    font-size: 52px;
-    line-height: 1.2;
+.slide-conteudo .texto strong {
+    font-weight: bold;
     color: #1A1209;
 }
-.slide-texto .titulo span {
-    color: #B08A6A;
+
+/* ════════════════════════════════════════
+   DESTAQUE — barra colorida + texto curto
+   ════════════════════════════════════════ */
+.slide-destaque .body {
+    gap: 56px;
+    justify-content: center;
+}
+.slide-destaque .barra {
+    background: #2B1A10;
+    color: #F5F1EB;
+    padding: 28px 48px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    letter-spacing: 0.04em;
+}
+.slide-destaque .barra em {
+    color: #C9A435;
+    font-style: italic;
+}
+.slide-destaque .texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 76px;
+    line-height: 1.45;
+    color: #1A1209;
+}
+.slide-destaque .texto strong {
     font-weight: bold;
 }
-.slide-texto .texto {
+.slide-destaque .rodape-texto {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    line-height: 1.65;
+    font-size: 60px;
+    line-height: 1.5;
     color: #4A3F35;
 }
 
-/* CTA */
+/* ════════════════════════════════════════
+   CTA — chamada final para ação
+   ════════════════════════════════════════ */
 .slide-cta .body {
-    gap: 40px;
+    gap: 56px;
     align-items: flex-start;
+    justify-content: center;
 }
 .slide-cta .tag {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    letter-spacing: 0.1em;
+    font-size: 40px;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #B08A6A;
-    background: #F0E6D6;
-    padding: 10px 24px;
+    background: #EDE5D8;
+    padding: 20px 48px;
     display: inline-block;
 }
 .slide-cta h2 {
-    font-size: 62px;
-    line-height: 1.1;
+    font-size: 108px;
+    line-height: 1.08;
     color: #1A1209;
     font-weight: normal;
 }
-.slide-cta h2 strong {
-    font-weight: bold;
-}
+.slide-cta h2 strong { font-weight: bold; }
 .slide-cta .instrucao {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 64px;
     line-height: 1.5;
     color: #4A3F35;
 }
 .slide-cta .cta-box {
     background: #1A1209;
-    color: #FAF8F4;
-    padding: 28px 40px;
+    color: #F5F1EB;
+    padding: 52px 72px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 60px;
     letter-spacing: 0.04em;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 """
 
@@ -186,8 +264,34 @@ def header_html():
 def footer_html():
     return f'<div class="footer"><span>{HANDLE}</span><span>{ANO}</span></div>'
 
+def slide_editorial(dados):
+    blocos = dados.get("blocos", [])
+    if isinstance(blocos, str):
+        blocos = [blocos]
+    html_blocos = "".join(f'<p class="bloco">{b}</p>' for b in blocos)
+    return f"""
+    <div class="slide slide-editorial">
+        {header_html()}
+        <div class="body">{html_blocos}</div>
+        {footer_html()}
+    </div>"""
+
+def slide_frase(dados):
+    gancho      = dados.get("gancho", "")
+    complemento = dados.get("complemento", "")
+    comp_html   = f'<p class="complemento">{complemento}</p>' if complemento else ""
+    return f"""
+    <div class="slide slide-frase">
+        {header_html()}
+        <div class="body">
+            <p class="gancho">{gancho}</p>
+            {comp_html}
+        </div>
+        {footer_html()}
+    </div>"""
+
 def slide_capa(dados):
-    label = dados.get("label", "")
+    label  = dados.get("label", "")
     titulo = dados.get("titulo", "")
     label_html = f'<div class="label">{label}</div>' if label else ""
     return f"""
@@ -216,15 +320,19 @@ def slide_conteudo(dados):
         {footer_html()}
     </div>"""
 
-def slide_texto(dados):
-    titulo = dados.get("titulo", "")
-    texto  = dados.get("texto", "")
+def slide_destaque(dados):
+    barra       = dados.get("barra", "")
+    texto       = dados.get("texto", "")
+    rodape      = dados.get("rodape", "")
+    barra_html  = f'<div class="barra">{barra}</div>' if barra else ""
+    rodape_html = f'<p class="rodape-texto">{rodape}</p>' if rodape else ""
     return f"""
-    <div class="slide slide-texto">
+    <div class="slide slide-destaque">
         {header_html()}
         <div class="body">
-            <p class="titulo">{titulo}</p>
+            {barra_html}
             <p class="texto">{texto}</p>
+            {rodape_html}
         </div>
         {footer_html()}
     </div>"""
@@ -249,10 +357,12 @@ def slide_cta(dados):
     </div>"""
 
 TIPOS = {
-    "capa":      slide_capa,
-    "conteudo":  slide_conteudo,
-    "texto":     slide_texto,
-    "cta":       slide_cta,
+    "editorial":  slide_editorial,
+    "frase":      slide_frase,
+    "capa":       slide_capa,
+    "conteudo":   slide_conteudo,
+    "destaque":   slide_destaque,
+    "cta":        slide_cta,
 }
 
 def gerar_pdf(slides_json_path, output_pdf_path):
@@ -261,8 +371,8 @@ def gerar_pdf(slides_json_path, output_pdf_path):
 
     html_slides = ""
     for s in slides:
-        tipo = s.get("tipo", "conteudo")
-        fn   = TIPOS.get(tipo, slide_conteudo)
+        tipo = s.get("tipo", "editorial")
+        fn   = TIPOS.get(tipo, slide_editorial)
         html_slides += fn(s)
 
     html = f"""<!DOCTYPE html>
