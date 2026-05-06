@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Gerador de slides em PDF para posts do Instagram.
-Proporção 4:5 (1080x1350px) — fundo limpo, pronto para editar no Canva.
+Proporção 4:5 (2160x2700px) — fundo limpo, pronto para editar no Canva.
 Uso: python3 scripts/gerar-slides.py <arquivo_json_de_slides> <saida.pdf>
 """
 
@@ -17,7 +17,7 @@ ANO    = "2026"
 
 BASE_CSS = """
 @page {
-    size: 1080px 1350px;
+    size: 2160px 2700px;
     margin: 0;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -28,8 +28,8 @@ body {
 }
 
 .slide {
-    width: 1080px;
-    height: 1350px;
+    width: 2160px;
+    height: 2700px;
     display: flex;
     flex-direction: column;
     padding: 72px 80px;

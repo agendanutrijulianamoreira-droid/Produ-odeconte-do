@@ -67,18 +67,20 @@ OBJEÇÕES COMUNS:"Já tentei de tudo e não funciona"
 ```
 estrategia/
   [ano]/
-    linha-editorial-anual.md     ← gerado pela Rotina Anual
+    linha-editorial-anual.md     ← gerado por /rotina-anual
 
 conteudo/
   [ano]/
     [mes]/
-      editorial-mensal.md        ← gerado pela Rotina Mensal
-      funil-conteudo.md          ← gerado pela Rotina Mensal
+      editorial-mensal.md        ← gerado por /rotina-mensal
+      funil-conteudo.md          ← gerado por /rotina-mensal
       semana-1/
-        posts-estaticos.md       ← gerado pela Rotina Semanal
-        carrossel.md             ← gerado pela Rotina Semanal
-        scripts-stories-reels.md ← gerado pela Rotina Semanal
-        posts-simples-canva.md   ← gerado pela Rotina Semanal
+        posts-estaticos.md       ← gerado por /rotina-semanal
+        carrossel.md             ← gerado por /rotina-semanal
+        scripts-stories-reels.md ← gerado por /rotina-semanal
+        posts-simples-canva.md   ← gerado por /rotina-semanal
+        designs/
+          links-canva.md         ← gerado por /rotina-design (links diretos no Canva)
       semana-2/
         ...
       semana-3/
@@ -94,52 +96,48 @@ prompts/
 
 ---
 
-## Rotina Anual — Como executar
+## Como executar — Fluxo completo
 
-Execute uma vez por ano (idealmente em dezembro para o ano seguinte).
+Execute os comandos nesta ordem. Cada um depende do anterior.
 
-**Comando:** leia o arquivo `prompts/rotina-annual.md`, siga as instruções e salve o resultado em `Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-anual.md`.
+### 1. `/rotina-anual` — Uma vez por ano
+Execute em dezembro para o ano seguinte (ou quando precisar).
 
-O arquivo gerado contém:
-- Tema/palavra-chave do ano
-- Pilares de conteúdo (3–5 pilares)
-- Arcos narrativos mês a mês
-- Produtos a empurrar em cada trimestre
-- Sazonalidades e datas relevantes do ano
+```
+/rotina-anual        → gera para o ano atual
+/rotina-anual 2027   → gera para 2027
+```
 
----
-
-## Rotina Mensal — Como executar
-
-Execute no último dia ou primeira segunda-feira de cada mês.
-
-**Pré-requisito:** `Produção de Conteúdo — Juliana Moreira/estrategia/[ANO]/linha-editorial-annual.md` deve existir.
-
-**Comando:** leia o arquivo `prompts/rotina-mensal.md` e o arquivo de estratégia anual correspondente, gere o editorial do mês atual e salve em:
-- `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/editorial-mensal.md`
-- `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/funil-conteudo.md`
-
-O editorial mensal contém:
-- Tema central do mês e por que agora
-- Objetivo de conversão do mês (qual produto empurrar)
-- Breakdown das 4 semanas: foco de cada semana no funil (topo/meio/fundo)
-- Pauta de 16–20 posts distribuídos nas semanas
-
-O funil de conteúdo contém:
-- Mapa visual em texto: quais posts atraem, engajam, convertem
-- Chamadas para ação (CTAs) por etapa
+Gera: `estrategia/[ANO]/linha-editorial-anual.md`
 
 ---
 
-## Rotina Semanal — Como executar
+### 2. `/rotina-mensal` — Todo início de mês
+Execute na primeira semana de cada mês.
 
-Execute toda segunda-feira (ou domingo à noite).
+```
+/rotina-mensal             → gera o mês atual
+/rotina-mensal junho       → gera junho
+/rotina-mensal junho 2026  → explícito
+```
 
-**Pré-requisito:** `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/editorial-mensal.md` deve existir.
+Gera:
+- `conteudo/[ANO]/[MES]/editorial-mensal.md`
+- `conteudo/[ANO]/[MES]/funil-conteudo.md`
 
-**Comando:** leia o arquivo `prompts/rotina-semanal.md`, o editorial mensal e o funil do mês corrente. Gere os 4 arquivos da semana correspondente e salve em `Produção de Conteúdo — Juliana Moreira/conteudo/[ANO]/[MES]/semana-[N]/`.
+---
 
-Os 4 arquivos gerados:
+### 3. `/rotina-semanal` — Toda semana (segunda-feira)
+Execute toda segunda-feira ou domingo à noite.
+
+```
+/rotina-semanal                    → gera a semana atual
+/rotina-semanal semana 2           → semana 2 do mês atual
+/rotina-semanal semana 2 junho     → semana 2 de junho
+/rotina-semanal semana 2 junho 2026 → explícito
+```
+
+Gera 4 arquivos em `conteudo/[ANO]/[MES]/semana-[N]/`:
 
 | Arquivo | O que contém |
 |---|---|
@@ -147,6 +145,20 @@ Os 4 arquivos gerados:
 | `carrossel.md` | Roteiro slide a slide de 1–2 carrosséis (capa + slides + CTA final) |
 | `scripts-stories-reels.md` | Scripts de 2–3 stories e 1–2 reels (cena a cena, fala, legenda, trilha sugerida) |
 | `posts-simples-canva.md` | Frases curtas prontas para copiar em posts simples no Canva (frase + cor sugerida + formato) |
+
+---
+
+### 4. `/rotina-design` — Após a semanal
+Cria os designs diretamente no Canva, prontos para editar e publicar.
+
+```
+/rotina-design                      → gera para a semana atual
+/rotina-design semana 2 maio        → semana 2 de maio
+/rotina-design semana 2 maio 2026   → explícito
+```
+
+Gera: `conteudo/[ANO]/[MES]/semana-[N]/designs/links-canva.md`
+(com os links diretos de cada design no Canva)
 
 ---
 
@@ -190,6 +202,6 @@ Recuperação de leads quentes que não compraram. Funil de pressão no WhatsApp
 5. **Reels e stories têm ritmo** — escreva em frases curtas, pausas marcadas com `[pausa]`, textos de tela em CAPS.
 6. **Posts simples para Canva** devem ter no máximo 10 palavras visíveis — o que sobra vai na legenda.
 7. **Proibição de Lives/Ao Vivo**: Nunca sugira lives, webinars ou eventos ao vivo. Substitua por: Desafio WhatsApp (5 dias), Desafio IG Fechado (Close Friends), Série de Conteúdo Intensivo (Reels/Carrosséis) ou Minicurso Gravado.
-8. **Identidade Visual**: Paleta cream (#F4EFE4), marrom escuro (#2B1A10), ouro (#C9A435). Tipografia Georgia. Emojis permitidos: ⚜️✅❤️😉🧠💪🎁🗝️🔓📆📋📌🥗.
+8. **Identidade Visual**: Paleta cream (#F4EFE4), marrom escuro (#2B1A10), ouro (#C9A435). Tipografia Georgia. Emojis permitidos: ⚜️✅❤️😉🧠💪🎁🗝️🔓📆📋📌🥗. Tamanho dos posts: 2160×2700px (proporção 4:5 — post normal do Instagram em alta resolução).
 9. **Regras de Slide**: Sem travessões e sem emojis no texto dos slides. Partir sempre da experiência vivida da mulher antes da explicação clínica.
 10. Ao salvar um arquivo, confirme no chat qual arquivo foi salvo e o caminho completo.
