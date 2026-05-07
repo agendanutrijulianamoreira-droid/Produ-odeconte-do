@@ -19,6 +19,8 @@ CARGO  = "Nutricionista"
 ANO    = "2026"
 
 BASE_CSS = """
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 @page {
     size: 2160px 2700px;
     margin: 0;
@@ -27,7 +29,7 @@ BASE_CSS = """
 
 body {
     font-family: Georgia, 'Times New Roman', serif;
-    background: #fff;
+    background: #F4EFE4;
 }
 
 /* ── Slide base ── */
@@ -36,11 +38,39 @@ body {
     height: 2700px;
     display: flex;
     flex-direction: column;
-    padding: 144px 176px;
+    padding: 160px 144px;
     page-break-after: always;
     page-break-inside: avoid;
     position: relative;
-    background: #F5F1EB;
+    overflow: hidden;
+    background: #F4EFE4;
+}
+
+/* ── Número decorativo de fundo ── */
+.numero-bg {
+    position: absolute;
+    bottom: -120px; right: -40px;
+    font-family: Georgia, serif;
+    font-size: 800px; font-weight: 700;
+    color: #C9A435; opacity: 0.06;
+    line-height: 1; pointer-events: none;
+    user-select: none;
+}
+
+/* ── Barra de acento dourado ── */
+.acento {
+    width: 96px; height: 8px;
+    background: #C9A435; border-radius: 4px;
+    margin-bottom: 56px;
+}
+
+/* ── Tag / série ── */
+.tag-serie {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 28px; font-weight: 700;
+    letter-spacing: 6px; text-transform: uppercase;
+    color: #C9A435;
+    margin-bottom: 56px;
 }
 
 /* ── Header ── */
@@ -48,7 +78,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     font-size: 40px;
     color: #7A7068;
     letter-spacing: 0.04em;
@@ -60,12 +90,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     font-size: 40px;
     color: #7A7068;
     letter-spacing: 0.04em;
     padding-top: 72px;
+    margin-top: auto;
 }
+.footer .handle { color: #C9A435; font-weight: 700; }
+.footer .num-slide { opacity: 0.5; }
 
 /* ── Body ── */
 .body {
@@ -77,196 +110,162 @@ body {
 
 /* ════════════════════════════════════════
    EDITORIAL — texto corrido com bold inline
-   (Modelo principal — padrão imagem 1)
    ════════════════════════════════════════ */
-.slide-editorial .body {
-    gap: 64px;
-    justify-content: center;
-}
+.slide-editorial { background: #F4EFE4; }
+.slide-editorial .body { gap: 64px; justify-content: center; }
 .slide-editorial .bloco {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 80px;
-    line-height: 1.45;
-    color: #1A1209;
-    font-weight: normal;
+    font-family: Georgia, serif;
+    font-size: 76px; font-weight: normal;
+    line-height: 1.55; color: #1A1209;
 }
-.slide-editorial .bloco strong {
-    font-weight: bold;
-    color: #1A1209;
-}
-.slide-editorial .bloco em {
-    font-style: italic;
-    color: #B08A6A;
-}
+.slide-editorial .bloco strong { font-weight: bold; }
+.slide-editorial .bloco em { color: #C9A435; font-style: italic; }
 
 /* ════════════════════════════════════════
-   FRASE — hook de 1 linha, impacto imediato
+   FRASE — hook de impacto imediato
    ════════════════════════════════════════ */
-.slide-frase .body {
-    justify-content: center;
-    gap: 48px;
-}
+.slide-frase { background: #FFFFFF; }
+.slide-frase .body { gap: 48px; justify-content: center; }
 .slide-frase .gancho {
     font-family: Georgia, serif;
-    font-size: 128px;
-    line-height: 1.12;
+    font-size: 108px; font-weight: 700;
+    line-height: 1.08; letter-spacing: -4px;
     color: #1A1209;
-    font-weight: normal;
 }
-.slide-frase .gancho strong {
-    font-weight: bold;
-}
-.slide-frase .gancho em {
-    font-style: italic;
-    color: #C9A435;
-}
+.slide-frase .gancho em { color: #C9A435; font-style: italic; }
+.slide-frase .gancho strong { font-weight: 700; }
 .slide-frase .complemento {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 68px;
-    line-height: 1.5;
-    color: #4A3F35;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 56px; font-weight: 300;
+    line-height: 1.5; color: #666666;
 }
 
 /* ════════════════════════════════════════
-   CAPA — abertura do carrossel
+   CAPA — gancho do carrossel
    ════════════════════════════════════════ */
-.slide-capa .body {
-    gap: 48px;
-    justify-content: flex-end;
-    padding-bottom: 32px;
-}
+.slide-capa { background: #F4EFE4; }
+.slide-capa .body { gap: 0; justify-content: center; }
 .slide-capa .label {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 44px;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #B08A6A;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 28px; font-weight: 700;
+    letter-spacing: 6px; text-transform: uppercase;
+    color: #C9A435;
+    margin-bottom: 56px;
 }
 .slide-capa h1 {
-    font-size: 136px;
-    line-height: 1.06;
+    font-family: Georgia, serif;
+    font-size: 112px; font-weight: 700;
+    line-height: 1.08; letter-spacing: -4px;
     color: #1A1209;
-    font-weight: normal;
 }
-.slide-capa h1 em {
-    color: #C9A435;
-    font-style: italic;
-}
-.slide-capa h1 strong {
-    font-weight: bold;
-}
+.slide-capa h1 em { color: #C9A435; font-style: italic; }
+.slide-capa h1 strong { font-weight: 700; }
 
 /* ════════════════════════════════════════
-   CONTEUDO — slides de carrossel numerados
+   CONTEUDO — slides numerados do carrossel
    ════════════════════════════════════════ */
+.slide-conteudo { background: #FFFFFF; }
+.slide-conteudo.par { background: #F4EFE4; }
+.slide-conteudo .body { gap: 0; justify-content: center; }
 .slide-conteudo .numero {
-    font-size: 200px;
-    color: #EDE5D8;
-    line-height: 1;
     font-family: Georgia, serif;
-    margin-bottom: -32px;
+    font-size: 56px; font-weight: 700;
+    color: #C9A435;
+    margin-bottom: 40px;
 }
 .slide-conteudo h2 {
-    font-size: 96px;
-    line-height: 1.12;
+    font-family: Georgia, serif;
+    font-size: 88px; font-weight: 700;
+    line-height: 1.1; letter-spacing: -2px;
     color: #1A1209;
-    font-weight: bold;
+    margin-bottom: 48px;
 }
+.slide-conteudo h2 strong { font-weight: 700; }
 .slide-conteudo .texto {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 64px;
-    line-height: 1.55;
-    color: #4A3F35;
-    margin-top: 24px;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 60px; font-weight: 300;
+    line-height: 1.55; color: #333333;
 }
-.slide-conteudo .texto strong {
-    font-weight: bold;
-    color: #1A1209;
-}
+.slide-conteudo .texto strong { font-weight: 700; color: #1A1209; }
 
 /* ════════════════════════════════════════
-   DESTAQUE — barra colorida + texto curto
+   DESTAQUE — slide de ruptura
    ════════════════════════════════════════ */
-.slide-destaque .body {
-    gap: 56px;
-    justify-content: center;
-}
+.slide-destaque { background: #F4EFE4; }
+.slide-destaque .body { gap: 56px; justify-content: center; }
 .slide-destaque .barra {
-    background: #2B1A10;
-    color: #F5F1EB;
-    padding: 28px 48px;
+    background: #2B1A10; color: #F4EFE4;
+    padding: 28px 56px;
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 56px;
-    letter-spacing: 0.04em;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 44px; letter-spacing: 0.04em;
 }
-.slide-destaque .barra em {
-    color: #C9A435;
-    font-style: italic;
-}
+.slide-destaque .barra em { color: #C9A435; font-style: italic; }
 .slide-destaque .texto {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 76px;
-    line-height: 1.45;
-    color: #1A1209;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 72px; line-height: 1.45; color: #1A1209;
 }
-.slide-destaque .texto strong {
-    font-weight: bold;
-}
+.slide-destaque .texto strong { font-weight: bold; }
 .slide-destaque .rodape-texto {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    line-height: 1.5;
-    color: #4A3F35;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 60px; line-height: 1.5; color: #4A3F35;
 }
 
 /* ════════════════════════════════════════
-   CTA — chamada final para ação
+   CTA — slide final (fundo escuro)
    ════════════════════════════════════════ */
-.slide-cta .body {
-    gap: 56px;
-    align-items: flex-start;
-    justify-content: center;
+.slide-cta {
+    background: #2B1A10;
+    align-items: center;
+    text-align: center;
+}
+.slide-cta .circulo {
+    position: absolute;
+    width: 1200px; height: 1200px;
+    border-radius: 50%;
+    border: 2px solid rgba(201,164,53,0.15);
+    top: 50%; left: 50%;
+    margin-top: -600px; margin-left: -600px;
+}
+.slide-cta .body { gap: 56px; align-items: center; justify-content: center; }
+.slide-cta .linha-cta {
+    width: 120px; height: 8px;
+    background: #C9A435; border-radius: 4px;
 }
 .slide-cta .tag {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #B08A6A;
-    background: #EDE5D8;
-    padding: 20px 48px;
-    display: inline-block;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 32px; letter-spacing: 10px;
+    text-transform: uppercase; color: rgba(244,239,228,0.5);
 }
 .slide-cta h2 {
-    font-size: 108px;
-    line-height: 1.08;
-    color: #1A1209;
-    font-weight: normal;
+    font-family: Georgia, serif;
+    font-size: 100px; font-weight: 700;
+    line-height: 1.1; letter-spacing: -2px;
+    color: #F4EFE4; max-width: 1600px;
 }
-.slide-cta h2 strong { font-weight: bold; }
+.slide-cta h2 strong { font-weight: 700; }
 .slide-cta .instrucao {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 64px;
-    line-height: 1.5;
-    color: #4A3F35;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 52px; font-weight: 300;
+    line-height: 1.5; color: rgba(244,239,228,0.7);
 }
 .slide-cta .cta-box {
-    background: #1A1209;
-    color: #F5F1EB;
-    padding: 52px 72px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    letter-spacing: 0.04em;
-    margin-top: 16px;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 48px; font-weight: 700;
+    letter-spacing: 3px; text-transform: uppercase;
+    color: #C9A435;
 }
+.slide-cta .footer .handle { color: #C9A435; }
+.slide-cta .footer { color: rgba(244,239,228,0.4); }
 """
 
 def header_html():
     return f'<div class="header"><span>{NOME}</span><span>{CARGO}</span></div>'
 
-def footer_html():
-    return f'<div class="footer"><span>{HANDLE}</span><span>{ANO}</span></div>'
+def footer_html(handle=None, num_slide=""):
+    h = handle or HANDLE
+    num_html = f'<span class="num-slide">{num_slide}</span>' if num_slide else f'<span>{ANO}</span>'
+    return f'<div class="footer"><span class="handle">{h}</span>{num_html}</div>'
 
 def slide_editorial(dados):
     blocos = dados.get("blocos", [])
@@ -288,6 +287,7 @@ def slide_frase(dados):
     <div class="slide slide-frase">
         {header_html()}
         <div class="body">
+            <div class="acento"></div>
             <p class="gancho">{gancho}</p>
             {comp_html}
         </div>
@@ -300,28 +300,35 @@ def slide_capa(dados):
     label_html = f'<div class="label">{label}</div>' if label else ""
     return f"""
     <div class="slide slide-capa">
+        <div class="numero-bg">01</div>
         {header_html()}
         <div class="body">
             {label_html}
+            <div class="acento"></div>
             <h1>{titulo}</h1>
         </div>
-        {footer_html()}
+        {footer_html(num_slide="01")}
     </div>"""
 
 def slide_conteudo(dados):
-    numero = dados.get("numero", "")
-    titulo = dados.get("titulo", "")
-    texto  = dados.get("texto", "")
-    num_html = f'<div class="numero">{numero}</div>' if numero else ""
+    numero    = dados.get("numero", "")
+    titulo    = dados.get("titulo", "")
+    texto     = dados.get("texto", "")
+    par       = dados.get("par", False)
+    par_class = " par" if par else ""
+    num_bg    = f'<div class="numero-bg">{numero}</div>' if numero else ""
+    num_html  = f'<div class="numero">— {numero}</div>' if numero else ""
     return f"""
-    <div class="slide slide-conteudo">
+    <div class="slide slide-conteudo{par_class}">
+        {num_bg}
         {header_html()}
         <div class="body">
             {num_html}
+            <div class="acento"></div>
             <h2>{titulo}</h2>
             <p class="texto">{texto}</p>
         </div>
-        {footer_html()}
+        {footer_html(num_slide=numero)}
     </div>"""
 
 def slide_destaque(dados):
@@ -350,8 +357,10 @@ def slide_cta(dados):
     cta_html  = f'<div class="cta-box">{cta}</div>' if cta else ""
     return f"""
     <div class="slide slide-cta">
+        <div class="circulo"></div>
         {header_html()}
         <div class="body">
+            <div class="linha-cta"></div>
             {tag_html}
             <h2>{titulo}</h2>
             <p class="instrucao">{instrucao}</p>

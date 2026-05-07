@@ -50,6 +50,46 @@ python3 scripts/gerar-slides.py slides.json saida.pdf --png
 Os PNGs ficam na pasta `saida_slides/slide_01.png`, `slide_02.png`, etc.
 Cada PNG sai em 2160×2700px (proporção 4:5 — padrão Instagram).
 
+---
+
+## Tabela de Produtos e Preços (atualizada)
+
+| Produto | Preço | Status |
+|---|---|---|
+| Consulta avulsa | R$300 | Ativo — porta de entrada para o Trimestral |
+| Método REINO Trimestral | R$790 | Produto âncora principal |
+| Comunidade / Grupos | R$97/mês | Em lançamento |
+| Protocolo PDF Sazonal | R$67 | Em lançamento (início: pré/pós canetas) |
+| Teste Genético + 1 consulta | R$1.200 | Criado — sem CTA ativo |
+| Teste Genético + 3 consultas | R$1.650 | Criado — sem CTA ativo |
+| E-book | R$27–47 | Em desenvolvimento |
+
+**Regra de CTA por objetivo da semana — nunca misturar:**
+- Semana de autoridade → CTA: seguir + salvar
+- Semana de conversão → CTA: "Comente [PALAVRA]" ou WhatsApp para o Trimestral
+- Semana de lançamento → CTA: link da página de vendas do produto em foco
+
+---
+
+## Sistema de Memória — Histórico de Semanas
+
+Após cada semana entregue, o Claude registra em `historico_semanas.md`:
+
+```markdown
+## Semana [N] — [DATA]
+- Tema: [tema]
+- Objetivo: [Autoridade / Conversão / Lançamento]
+- Gancho slide 1: [texto exato usado]
+- Receita: [nome da receita]
+- CTA: [ação usada]
+- Produto em foco: [produto + preço]
+- Ajuste pedido: [se a Juliana pediu alguma mudança]
+```
+
+Leia `historico_semanas.md` antes de cada semana nova para não repetir gancho, receita ou CTA idêntico.
+
+---
+
 ```
 HANDLE INSTAGRAM: @nutridamulhermoderna
 BRAND KIT CANVA:  kAEN0HquLOI

@@ -81,21 +81,38 @@ Ao revisar qualquer copy, elimine imediatamente:
 | "potencializar" | Jargão de marketing vazio |
 | "Você sabia que..." | Abre com palestra, não com pessoa |
 | "Muitas mulheres..." | Genérico. Qual mulher? Qual situação? |
-| "É importante lembrar" | Professoral demais |
-| "De forma geral" | Dilui a mensagem |
-| "Busque sempre um profissional" | Óbvio e distante |
-| "Saúde é um processo" | Frase vazia |
+| "Descubra", "Conheça", "Aprenda" | Começo de post de blog, não de Instagram |
+| "X dicas para..." no slide 1 | O formato mais genérico que existe |
+| "Frases que qualquer nutricionista poderia ter escrito" | Verificação final obrigatória |
 
-### Substituições de linguagem
+### Substituições de linguagem — ANTES / DEPOIS reais
 
-| IA diz | Juliana diz |
+**Gancho (slide 1 / tela inicial do reel):**
+
+| ❌ IA escreve | ✅ Juliana escreve |
 |---|---|
-| "O cortisol interfere no metabolismo" | "Seu cortisol às 8h já está no piso, e é por isso que você quer açúcar às 10h da manhã" |
-| "Hormonios desequilibrados causam inchaço" | "Progesterona baixa retém líquido. Simples assim. E nenhuma dieta do mundo resolve isso" |
-| "Alimente-se de forma equilibrada" | "Equilibrado não é comer menos. É comer o que o SEU corpo precisa, no horário que faz diferença pra você" |
-| "Procure acompanhamento nutricional" | "É exatamente isso que eu analiso nos seus exames antes de montar qualquer protocolo" |
-| "Com o protocolo adequado você pode emagrecer" | "Em 4 semanas de protocolo ajustado, a barriga desincha antes da balança mover. Sempre" |
-| "Sintomas de SOP incluem..." | "SOP não é só cisto. É a calça que não fecha, o ciclo que some por 3 meses, o cansaço que não passa" |
+| "Você sabia que 1 em cada 10 mulheres tem endometriose?" | "Seu exame voltou normal. Mas você sabe que não está." |
+| "5 sinais de desequilíbrio hormonal" | "O médico disse que está tudo certo. O seu corpo diz outra coisa." |
+| "Dicas para emagrecer sem sofrimento" | "O exame voltou normal. Mas você não está." |
+
+**Solução (slides 3-5):**
+
+| ❌ IA escreve | ✅ Juliana escreve |
+|---|---|
+| "A nutrição de precisão analisa marcadores bioquímicos e..." | "O problema não é você comer errado. É que ninguém leu o seu exame de verdade. Quando analisamos cortisol, insulina e tireoide juntos, o quadro muda completamente." |
+| "O cortisol interfere no metabolismo" | "Seu cortisol às 8h já está no piso. É por isso que você quer açúcar às 10h da manhã." |
+
+**Conexão (slides 6-7):**
+
+| ❌ IA escreve | ✅ Juliana escreve |
+|---|---|
+| "Sabemos que a rotina corrida dificulta a adesão à dieta." | "Você chega em casa às 20h. Ainda tem mensagem de trabalho, criança, casa. Comer bem parece luxo. Não é fraqueza. É falta de protocolo feito para a sua realidade." |
+
+**Autoridade (slide 8):**
+
+| ❌ IA escreve | ✅ Juliana escreve |
+|---|---|
+| "Resultados comprovados por evidências científicas." | "A Camila chegou há 3 meses sem energia e com 12kg acima do peso. Ajustamos tireoide funcional e cortisol noturno. Hoje ela perdeu 9kg e me mandou: 'Juliana, eu me lembro de mim mesma.'" |
 
 ---
 
