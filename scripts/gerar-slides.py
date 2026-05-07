@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """
-Gerador de slides em PDF para posts do Instagram.
+Gerador de slides em PDF e PNG para posts do Instagram.
 Proporção 4:5 (2160x2700px) — tipografia editorial limpa, sem fotos.
-Uso: python3 scripts/gerar-slides.py <arquivo_json_de_slides> <saida.pdf>
+
+Uso:
+  python3 scripts/gerar-slides.py slides.json saida.pdf        → gera PDF
+  python3 scripts/gerar-slides.py slides.json saida.pdf --png  → gera PDF + PNGs
 """
 
 import sys
+import os
 import json
 from weasyprint import HTML, CSS
 
@@ -384,9 +388,46 @@ def gerar_pdf(slides_json_path, output_pdf_path):
     css = CSS(string=BASE_CSS)
     HTML(string=html).write_pdf(output_pdf_path, stylesheets=[css])
     print(f"✓ PDF gerado: {output_pdf_path}")
+    return len(slides)
+
+
+def gerar_png(pdf_path, output_dir=None):
+    """Converte cada página do PDF em PNG 2160x2700px — formato padrão Instagram 4:5."""
+    try:
+        from pdf2image import convert_from_path
+    except ImportError:
+        print("⚠ pdf2image não instalado. Rode: pip install pdf2image --break-system-packages")
+        return
+
+    if output_dir is None:
+        output_dir = os.path.splitext(pdf_path)[0] + "_slides"
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    # size=(2160, 2700) fixa o tamanho exato — pronto para subir no Instagram
+    imagens = convert_from_path(pdf_path, fmt="png", size=(2160, 2700))
+
+    for i, img in enumerate(imagens, start=1):
+        nome = os.path.join(output_dir, f"slide_{i:02d}.png")
+        img.save(nome, "PNG")
+        print(f"  ✓ slide_{i:02d}.png — {img.size[0]}×{img.size[1]}px")
+
+    print(f"\n✓ {len(imagens)} slides PNG prontos em: {output_dir}/")
+    return output_dir
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Uso: python3 gerar-slides.py slides.json saida.pdf")
+        print("Uso: python3 gerar-slides.py slides.json saida.pdf [--png]")
         sys.exit(1)
-    gerar_pdf(sys.argv[1], sys.argv[2])
+
+    json_path   = sys.argv[1]
+    pdf_path    = sys.argv[2]
+    gerar_pngs  = "--png" in sys.argv
+
+    n_slides = gerar_pdf(json_path, pdf_path)
+
+    if gerar_pngs:
+        print(f"\nConvertendo {n_slides} slides para PNG...")
+        gerar_png(pdf_path)
+

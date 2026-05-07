@@ -35,7 +35,20 @@ Instruções:
 
 ---
 
-## Instagram e Canva
+## Geração de Slides (PDF + PNG)
+
+O script `scripts/gerar-slides.py` gera os slides em PDF e converte para PNG automaticamente:
+
+```bash
+# PDF apenas
+python3 scripts/gerar-slides.py slides.json saida.pdf
+
+# PDF + PNGs 2160×2700px prontos para Instagram
+python3 scripts/gerar-slides.py slides.json saida.pdf --png
+```
+
+Os PNGs ficam na pasta `saida_slides/slide_01.png`, `slide_02.png`, etc.
+Cada PNG sai em 2160×2700px (proporção 4:5 — padrão Instagram).
 
 ```
 HANDLE INSTAGRAM: @nutridamulhermoderna

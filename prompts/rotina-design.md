@@ -130,13 +130,14 @@ Exemplo de formato esperado pelo script:
 
 ```bash
 cd [pasta do repositório]
-python3 scripts/gerar-slides.py conteudo/[ANO]/[MES]/semana-[N]/carrossel-1.json \
-  conteudo/[ANO]/[MES]/semana-[N]/designs/carrossel-1.pdf
+
+# Gera PDF + PNGs prontos para Instagram (2160×2700px)
+python3 scripts/gerar-slides.py conteudo/[ANO]/[MES]/semana-[N]/designs/carrossel-1.json \
+  conteudo/[ANO]/[MES]/semana-[N]/designs/carrossel-1.pdf --png
 ```
 
-O PDF gerado tem 2160×2700px por slide (proporção 4:5), com paleta da marca e
-tipografia Georgia. Abra no Preview/Acrobat, exporte cada página como PNG
-e suba direto no Instagram.
+O `--png` converte cada slide automaticamente em PNG 2160×2700px na pasta
+`carrossel-1_slides/`. Os arquivos ficam prontos para subir diretamente no Instagram.
 
 **Passo 3 — Para posts simples**
 

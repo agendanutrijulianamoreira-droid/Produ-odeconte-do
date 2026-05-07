@@ -77,6 +77,38 @@ Intenção: [atrair / educar / converter]
 ───────────────────────────────
 ```
 
+### Estrutura obrigatória de slides (use como sequência narrativa)
+
+Todo carrossel segue esta progressão — adapte o número de slides, mas nunca pule a ordem:
+
+1. **CAPA — Hook de impacto** (dor latente ou promessa forte)
+   - Não pode ser "5 dicas para X" — precisa ser específico e provocativo
+   - Exemplos que funcionam: "Você come pouco, se esforça e o peso não sai. O problema não é você." / "Por que sua dieta de 1200 calorias está te deixando mais cansada"
+   - Exemplos que não funcionam: "Saúde hormonal para mulheres" / "Como emagrecer de forma saudável"
+
+2. **APROFUNDAMENTO do problema** (slides 2-3)
+   - Explique a dor que a capa tocou — sem ainda dar a solução
+   - Use linguagem do cotidiano da mulher, não terminologia clínica
+   - "É por isso que você chega às 20h e só pensa em comida"
+
+3. **CAUSA REAL + SOLUÇÃO** (slides 3-5)
+   - Quebre o padrão — por que o que ela tentou antes não funcionou?
+   - Apresente o diferencial: nutrição de precisão, análise bioquímica/genética
+   - Nunca genérico — sempre específico ao mecanismo ("cortisol invertido", "resistência à insulina", "progesterona baixa")
+
+4. **CONEXÃO** (slide 6-7, se o carrossel for longo)
+   - Mostre que você entende a rotina real: agenda lotada, compulsão noturna, estresse
+   - Use uma situação concreta: "Eu sei como é chegar em casa às 20h e querer descontar no chocolate"
+
+5. **AUTORIDADE** (slide 7-8)
+   - Resultado real de paciente (sem identificar) ou dado clínico de exame
+   - Não: "Eu tenho anos de experiência" — Sim: "Foi exatamente isso que encontrei nos exames da [Maria]: cortisol baixo às 8h, insulina elevada às 14h"
+
+6. **CTA — Ação única e direta** (último slide)
+   - Uma ação. Nunca duas.
+   - Formato: "Comenta [PALAVRA] aqui que eu te mando [o que ela recebe]"
+   - Nunca: "Curta, salve e compartilhe"
+
 Seguido do bloco JSON para `/rotina-design`. Use os tipos de slide assim:
 
 - **Slide 1:** tipo `capa` — gancho que obriga o arraste
