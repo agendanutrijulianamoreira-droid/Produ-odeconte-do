@@ -9,9 +9,9 @@ import sys
 import json
 from weasyprint import HTML, CSS
 
-HANDLE = "@nutrijulianamoreira"   # ← VERIFIQUE: altere para o seu handle real do Instagram
+HANDLE = "@nutridamulhermoderna"
 NOME   = "Juliana Moreira"
-CARGO  = "CRN9-22234 | Nutricionista"
+CARGO  = "Nutricionista"
 ANO    = "2026"
 
 BASE_CSS = """

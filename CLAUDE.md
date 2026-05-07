@@ -38,9 +38,8 @@ Instruções:
 ## Instagram e Canva
 
 ```
-HANDLE INSTAGRAM: @nutrijulianamoreira   ← CONFIRME e corrija se necessário
+HANDLE INSTAGRAM: @nutridamulhermoderna
 BRAND KIT CANVA:  kAEN0HquLOI
-CRN:              CRN9-22234
 
 TEMPLATES OFICIAIS:
   Carrossel:      DAG-TljeV_Q
