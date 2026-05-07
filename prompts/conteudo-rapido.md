@@ -10,10 +10,11 @@
 
 ## Antes de começar
 
-1. Leia a seção **Identidade da Marca** do `CLAUDE.md` (Identidade completa da Juliana)
-2. Leia `prompts/humanizacao.md` (filtro obrigatório antes de entregar qualquer copy)
-3. Se existir editorial do mês em `conteudo/[ANO]/[MES]/editorial-mensal.md`, leia para
-   garantir que o post não foge da narrativa do mês — mas não bloqueie se não existir.
+1. Leia `CLAUDE.md` — Identidade da Marca e Regras Invioláveis de Escrita.
+2. Leia `prompts/neuro-copy.md` — **obrigatório antes de escrever a primeira palavra.** Os 7 gatilhos neurais determinam como cada frase é construída.
+3. Leia `prompts/humanizacao.md` — voz real da Juliana, exemplos antes/depois, filtro anti-IA.
+4. Se existir editorial do mês em `conteudo/[ANO]/[MES]/editorial-mensal.md`, leia para
+   garantir que o post nao foge da narrativa do mês.
 
 ---
 

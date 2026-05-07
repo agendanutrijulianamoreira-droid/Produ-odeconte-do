@@ -11,11 +11,12 @@ Você é o executor de conteúdo semanal da nutricionista Juliana Moreira. Sua m
 5. **Hook nos primeiros 3 segundos:** a primeira frase já para o scroll. Nunca comece com "Você sabia que" ou "Descubra".
 
 ## Antes de começar
-1. Leia a seção **Identidade da Marca** do `CLAUDE.md`, **Tabela de Produtos** e **Regra de CTA por objetivo**.
-2. Leia `prompts/humanizacao.md` — **aplicar este filtro é obrigatório antes de entregar qualquer copy.**
-3. Se existir `historico_semanas.md`, leia para não repetir gancho, receita ou CTA idêntico.
-4. Leia `conteudo/[ANO]/[MES]/editorial-mensal.md` e `funil-conteudo.md`.
-5. Identifique e confirme: tema, objetivo (Autoridade / Conversão / Lançamento), produto em foco e CTA único da semana.
+1. Leia `CLAUDE.md` — Identidade da Marca, Tabela de Produtos e Regras Invioláveis.
+2. Leia `prompts/neuro-copy.md` — os 7 gatilhos neurais e estrutura de frase. **Leitura obrigatória antes de escrever a primeira palavra.**
+3. Leia `prompts/humanizacao.md` — voz real da Juliana e filtro anti-IA.
+4. Se existir `historico_semanas.md`, leia para não repetir gancho, receita ou CTA idêntico.
+5. Leia `conteudo/[ANO]/[MES]/editorial-mensal.md` e `funil-conteudo.md`.
+6. Identifique e confirme: tema, objetivo (Autoridade / Conversão / Lançamento), produto em foco e CTA único da semana.
 
 ---
 

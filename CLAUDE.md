@@ -16,22 +16,26 @@ Este repositório é o cérebro da produção de conteúdo. O Claude executa rot
 
 ---
 
-## REGRA INVIOLÁVEL — Humanização
+## REGRAS INVIOLÁVEIS DE ESCRITA
 
-**Todo conteúdo gerado neste sistema passa obrigatoriamente pelo módulo
-`prompts/humanizacao.md` antes de ser entregue.**
+```
+PROIBIDO em absolutamente qualquer peça de conteúdo:
+- Travessão ( — ) em qualquer posição. Use virgula ou ponto.
+- Emoji no texto de slides e roteiros. Só na legenda publicada, com parcimonia.
+- "Você sabia que", "Descubra", "Conheça", "Aprenda" abrindo qualquer frase.
+- Adjetivos genéricos: "incrível", "poderoso", "transformador", "revolucionário".
+- Superlativo vazio: "a melhor", "único no Brasil", "método exclusivo".
+- Frases que qualquer outra nutricionista poderia ter escrito.
+- CTA duplo ou triplo em um mesmo post.
+```
 
-Não há exceção. Não há "post rápido" que saia sem passar pelo filtro.
+## REGRA INVIOLÁVEL — Humanização + Neuro-Copy
 
-O motivo é simples: conteúdo que soa como IA genérica não converte.
-O conteúdo da Juliana precisa fazer a mulher pensar "ela está falando comigo".
-O módulo de humanização garante isso em todo formato.
+**Toda geração de conteúdo lê obrigatoriamente, nesta ordem:**
+1. `prompts/neuro-copy.md` — gatilhos neurais e estrutura de frase
+2. `prompts/humanizacao.md` — voz real da Juliana e exemplos antes/depois
 
-Instruções:
-1. Ao terminar qualquer geração de copy, leia `prompts/humanizacao.md`
-2. Aplique o checklist de 10 pontos
-3. Reescreva os trechos que falharem no filtro
-4. Só então entregue o conteúdo
+Sem exceção. Sem "post rápido" que saia sem esses dois filtros.
 
 ---
 
