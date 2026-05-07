@@ -28,8 +28,9 @@ Execute a Rotina Semanal de produção de conteúdo.
    - `carrossel.md`
    - `scripts-stories-reels.md`
    - `posts-simples-canva.md`
-10. Faça commit com a mensagem: `feat: conteúdo semana $N $MES $ANO`
-11. Confirme no chat os 4 caminhos salvos e um resumo do calendário de publicação da semana.
+10. **Passo final obrigatório — Humanização:** Leia `prompts/humanizacao.md` e aplique o checklist de 10 pontos sobre os 4 arquivos gerados. Reescreva qualquer trecho que falhar antes de confirmar.
+11. Faça commit com a mensagem: `feat: conteúdo semana $N $MES $ANO`
+12. Confirme no chat os 4 caminhos salvos e um resumo do calendário de publicação da semana.
 
 ## Como usar
 `/rotina-semanal` → gera a semana atual

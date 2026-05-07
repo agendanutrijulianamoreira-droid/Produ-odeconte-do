@@ -4,6 +4,61 @@ Este repositório é o cérebro da produção de conteúdo. O Claude executa rot
 
 ---
 
+## Referência Rápida de Comandos
+
+| Comando | Frequência | O que faz |
+|---|---|---|
+| `/rotina-anual [ano]` | 1× por ano | Gera linha editorial anual |
+| `/rotina-mensal [mês] [ano]` | 1× por mês | Gera editorial + funil do mês |
+| `/rotina-semanal [semana N] [mês]` | Toda segunda-feira | Gera os 4 arquivos da semana |
+| `/rotina-design [semana N] [mês]` | Após a semanal | Cria designs no Canva ou PDF |
+| `/conteudo-rapido [tema] [formato]` | Qualquer momento | 1 post urgente em < 5 min |
+
+---
+
+## REGRA INVIOLÁVEL — Humanização
+
+**Todo conteúdo gerado neste sistema passa obrigatoriamente pelo módulo
+`prompts/humanizacao.md` antes de ser entregue.**
+
+Não há exceção. Não há "post rápido" que saia sem passar pelo filtro.
+
+O motivo é simples: conteúdo que soa como IA genérica não converte.
+O conteúdo da Juliana precisa fazer a mulher pensar "ela está falando comigo".
+O módulo de humanização garante isso em todo formato.
+
+Instruções:
+1. Ao terminar qualquer geração de copy, leia `prompts/humanizacao.md`
+2. Aplique o checklist de 10 pontos
+3. Reescreva os trechos que falharem no filtro
+4. Só então entregue o conteúdo
+
+---
+
+## Instagram e Canva
+
+```
+HANDLE INSTAGRAM: @nutrijulianamoreira   ← CONFIRME e corrija se necessário
+BRAND KIT CANVA:  kAEN0HquLOI
+CRN:              CRN9-22234
+
+TEMPLATES OFICIAIS:
+  Carrossel:      DAG-TljeV_Q
+  Post entrega:   DAG4xGMUwKw
+  Capa premium:   DAHA9pzvNPY
+  Docs A4:        DAG_nizn6NA
+
+PALETA:
+  Creme:          #F4EFE4
+  Marrom escuro:  #2B1A10
+  Ouro:           #C9A435
+
+TIPOGRAFIA:       Georgia (serif)
+FORMATO POSTS:    2160x2700px (4:5) — proporção padrão Instagram
+```
+
+---
+
 ## Identidade da Marca
 
 > Preencha esta seção antes de rodar qualquer rotina.

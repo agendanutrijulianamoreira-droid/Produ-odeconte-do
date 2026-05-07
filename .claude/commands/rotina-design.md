@@ -1,24 +1,18 @@
-Gera os PDFs de design para a semana especificada em $ARGUMENTS.
+Gera os designs da semana — via Canva MCP (preferencial) ou PDFs locais — para a semana especificada em $ARGUMENTS.
 
-## Passos obrigatórios
+## Antes de começar
+1. Leia `prompts/rotina-design.md` para o fluxo completo e instruções de cada modo.
+2. Determine semana, mês e ano a partir de `$ARGUMENTS`. Se vazio, use a semana atual.
+3. Verifique se `conteudo/$ANO/$MES/semana-$N/carrossel.md` existe. Se não, instrua a rodar `/rotina-semanal`.
 
-1. Determine semana, mês e ano a partir de `$ARGUMENTS` (ex: "semana 1 maio 2026"). Se vazio, use a semana atual.
-2. Verifique se `conteudo/$ANO/$MES/semana-$N/carrossel.md` existe. Se não existir, instrua a rodar `/rotina-semanal` primeiro.
-3. Leia os arquivos de conteúdo da semana (`posts-estaticos.md`, `carrossel.md`, `posts-simples-canva.md`).
-4. Crie a pasta `conteudo/$ANO/$MES/semana-$N/designs/` se não existir.
-5. Gere os 3 arquivos JSON de slides:
-   - `designs/carrossel.json`
-   - `designs/posts-estaticos.json`
-   - `designs/posts-canva.json`
-6. Para cada JSON, execute:
-   ```
-   python3 scripts/gerar-slides.py conteudo/$ANO/$MES/semana-$N/designs/<arquivo>.json conteudo/$ANO/$MES/semana-$N/designs/<nome>.pdf
-   ```
-7. Confirme no chat os 3 PDFs gerados com caminho completo.
+## Fluxo resumido
 
----
+### Modo A — Canva MCP (quando conectado)
+Leia `prompts/rotina-design.md` e siga a seção "Modo A" para cada design.
+Templates: Carrossel `DAG-TljeV_Q`, Posts `DAG4xGMUwKw`, Brand Kit `kAEN0HquLOI`.
 
-## Tipos de slide disponíveis
+### Modo B — PDF local (offline)
+
 
 ### `editorial` — **tipo principal** (padrão para posts estáticos)
 Texto corrido em 1–2 parágrafos com bold inline para ênfase. Limpo, direto, sem enfeites.
@@ -112,3 +106,13 @@ Tag + título + instrução + botão.
 `/rotina-design` → gera para a semana atual
 `/rotina-design semana 2 maio` → gera semana 2 de maio
 `/rotina-design semana 2 maio 2026` → explícito
+1. Leia os arquivos de conteúdo da semana.
+2. Crie a pasta `conteudo/$ANO/$MES/semana-$N/designs/` se não existir.
+3. Extraia os JSONs de slides de `carrossel.md`, `posts-estaticos.md`, `posts-simples-canva.md`.
+4. Salve os JSONs em `designs/` e execute o script para cada um:
+   ```
+   python3 scripts/gerar-slides.py designs/<arquivo>.json designs/<nome>.pdf
+   ```
+5. Salve links Canva ou caminhos dos PDFs em `designs/links-canva.md`.
+6. Confirme no chat os designs gerados com caminhos completos.
+

@@ -12,8 +12,9 @@ Você é um copywriter e roteirista de conteúdo estratégico para redes sociais
 
 ## Antes de começar
 1. Leia a seção **Identidade da Marca** do `CLAUDE.md`.
-2. Leia `conteudo/[ANO]/[MES]/editorial-mensal.md` e `funil-conteudo.md`.
-3. Identifique: mini-tema da semana, foco de funil e tipo (Basal / PICO / LIMPA MESA).
+2. Leia `prompts/humanizacao.md` — **aplicar este filtro é obrigatório antes de entregar qualquer copy.**
+3. Leia `conteudo/[ANO]/[MES]/editorial-mensal.md` e `funil-conteudo.md`.
+4. Identifique: mini-tema da semana, foco de funil e tipo (Basal / PICO / LIMPA MESA).
 
 ---
 
@@ -194,3 +195,19 @@ JSON (slide `frase`):
 
 ## Instruções de Salvamento
 Salve os 4 arquivos e confirme no chat os caminhos completos salvos.
+
+---
+
+## Passo final obrigatório — Humanização
+
+**Antes de confirmar que a semana está pronta**, leia `prompts/humanizacao.md`
+e execute o checklist de 10 pontos sobre cada arquivo gerado.
+
+Reescreva qualquer trecho que:
+- Comece com "Você sabia que" ou "Muitas mulheres"
+- Contenha palavras proibidas (mergulhar, jornada, certamente...)
+- Não abra com âncora emocional específica
+- Tenha CTA genérico ("saiba mais", "entre em contato")
+- Soe como palestra e não como conversa
+
+Só confirme a semana pronta após este filtro.
