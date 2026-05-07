@@ -269,3 +269,58 @@ A — Acao
     Tecnica neuro: Aversao a Perda + Mudanca de Identidade + Instrucao Unica
     Objetivo neural: Urgencia sem pressao + acao imediata
 ```
+
+---
+
+## Perfil da cliente ideal — A Inconformada
+
+Esta seção existe porque copy genérico de nutrição nao converte essa mulher.
+Ela ja ouviu tudo. A unica coisa que para o scroll dela é reconhecer sua propria historia.
+
+### Quem ela é
+Ela chegou ao limite. Nao é a mulher que quer "emagrecer uns quilinhos antes do verao".
+É a que tentou de tudo por anos e ainda continua sem resposta.
+
+Trilha real que ela percorreu:
+1. Dieta restritiva. Funcionou 3 semanas. Voltou tudo.
+2. Endocrinologista. Exames "dentro do normal". Nenhuma resposta real.
+3. Remédio (metformina, levotiroxina, anticoncepcional). Resultado mínimo.
+4. Exercício constante por meses. Balanca nao moveu.
+5. Jejum, low carb, detox. Cansou.
+6. Caneta (GLP-1): perdeu peso, parou, engordou tudo de volta mais fraca.
+7. Cogita bariátrica. Tem medo. Ainda nao fez.
+
+### O que trava a decisao dela
+Ela nao compra mais fácil. Ja foi enganada. Ja acreditou em promessa e nao funcionou.
+O que a move para agir nao é mais uma promessa de resultado.
+É a sensacao de que DESSA VEZ alguém entendeu o que está acontecendo com o corpo dela.
+
+### O gatilho que converte essa mulher especificamente
+**Nao é "emagreca X kg em Y semanas".**
+É: "Nao é você. É que ninguém leu o seu caso direito ainda."
+
+Esse reframe retira a culpa e coloca no diagnóstico. O cérebro dela respira.
+E quando ela respira, ela decide.
+
+### Frases que ela fala pra si mesma (espelhe isso no copy)
+
+Copy que converte essa mulher começa com o que ela ja pensa, nao com o que voce quer vender.
+
+| O que ela pensa | Como usar no copy |
+|---|---|
+| "Ja tentei de tudo e nao funciona pra mim" | Slide 1: "Você nao falhou nas dietas. As dietas falharam com o seu caso." |
+| "O médico disse que está tudo normal" | "Normal nao é otimizado. Seu laudo diz que está dentro do intervalo. Seu corpo diz outra coisa." |
+| "Fiz a caneta, perdi peso, parei, engordei tudo de volta" | "A caneta emagrece. Mas sem protocolo de preservação muscular, voce perde o que menos queria perder." |
+| "Pensei em fazer bariátrica" | "Antes de qualquer decisao cirúrgica, há dados que nenhum cirurgiao pediu olhar." |
+| "Será que o problema sou eu?" | "O problema nunca foi voce. Foi que ninguém analisou os quatro marcadores que explicam o seu quadro." |
+| "Meu corpo sabota tudo que eu faco" | "Seu corpo nao está te sabotando. Ele está respondendo exatamente ao que o ambiente bioquímico pede." |
+| "Tenho medo de comecar mais uma coisa e nao conseguir" | "Voce nao precisa de mais forca de vontade. Precisa de um protocolo feito pro seu caso, nao para a média." |
+
+### Regra para essa persona especificamente
+
+Nunca escreva conteúdo de topo de funil genérico para essa mulher.
+Ela ja passou por esse topo. Ela sabe o que é cortisol. Ela sabe o que é insulina.
+O que ela nao sabe é POR QUE o dela especificamente está errado e o que fazer.
+
+Seu diferencial nao é educar. É diagnosticar.
+O copy que converte essa persona mostra que voce sabe LER o caso dela, nao que voce sabe ensinar sobre nutrição.

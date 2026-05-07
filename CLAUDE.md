@@ -126,24 +126,69 @@ NICHO:          Nutrição para mulheres com desregulação hormonal (SOP, endom
                 candidíase e miomas), com foco em emagrecimento sem efeito sanfona,
                 redução de inchaço e melhora de energia.
 
-PÚBLICO-ALVO:   Mulheres de 30 a 45 anos, empreendedoras, com rotina intensa.
-                Já tentaram dieta e falharam. Sofrem com compulsão noturna e ansiedade.
-                Sentem inchaço constante e baixa energia. Têm dificuldade de manter constância.
+PÚBLICO-ALVO:   Mulheres de 30 a 45 anos. Empreendedoras ou com rotina intensa.
+                Nao é a mulher que quer "emagrecer uns quilinhos".
+                É a que JÁ TENTOU DE TUDO e continua sem resultado:
 
-DORES:          - Não conseguem emagrecer de forma consistente
-                - Inchaço abdominal diário
-                - Cansaço mesmo dormindo
-                - Perda de controle alimentar à noite
-                - Sintomas hormonais desregulados
+                Trilha da frustração (ela passou por tudo isso, nessa ordem):
+                1. Fez dieta restritiva. Funcionou 3 semanas. Voltou tudo.
+                2. Foi ao endocrinologista. Exames "dentro do normal". Saiu sem resposta.
+                3. Tomou remédio para tireoide, metformina, ou anticoncepcional.
+                   Resultado mínimo ou efeito colateral insuportável.
+                4. Fez exercício regularmente por meses. A balança nao moveu.
+                5. Tentou jejum intermitente, low carb, detox, chá de X ervas.
+                6. Cogitou bariátrica. Algumas já consultaram.
+                7. Algumas já usaram caneta (GLP-1/Ozempic/Wegovy): perderam
+                   peso mas emagraram massa muscular, ficaram fracas, ou
+                   engordaram tudo de volta quando pararam.
 
-DESEJOS:        - Emagrecer sem restrição extrema
-                - Ter energia ao longo do dia
-                - Sentir o corpo leve e desinchado
-                - Regular hormônios e ciclo
-                - Ter controle sobre a alimentação
+                O que ela sente agora:
+                - Culpa: acha que o problema é falta de disciplina ou força de vontade
+                - Resignação: "meu metabolismo é lento", "é genética", "nao serve pra mim"
+                - Desconfiança: já comprou promessa demais, nao acredita mais fácil
+                - Medo: de fazer mais uma coisa e falhar de novo
+                - Raiva: do próprio corpo, da medicina que nao deu resposta
+                - Esperança reprimida: ainda acredita que existe uma saída
 
-TRANSFORMAÇÃO:  De exausta, inchada e presa em ciclos de dieta
-                → Leve, regulada e no controle do próprio corpo
+                O que ela REALMENTE quer (mais fundo que "emagrecer"):
+                - Entender POR QUE o corpo dela nao responde como o de outras
+                - Liberdade com comida, sem culpa, sem restricao extrema
+                - Energia de volta para a rotina
+                - Sentir-se bem no próprio corpo — nao num corpo perfeito, no seu
+                - Alguém que finalmente LEIA o caso dela, nao protocolo genérico
+                - Sair do ciclo de tentativa, resultado, recaída, culpa
+
+                Frases que ela fala para si mesma (o copy deve espelhar isso):
+                "Eu como bem, faco exercício e o peso nao sai."
+                "O médico disse que está tudo normal. Mas eu sei que nao está."
+                "Já tentei de tudo. Nao funciona pra mim."
+                "Será que o problema sou eu?"
+                "Pensei em fazer bariátrica. Mas tenho medo."
+                "Fiz a caneta, perdi peso, parei, engordei tudo de volta mais fraca."
+                "Meu corpo sabota tudo que eu faço."
+                "Tenho medo de começar mais uma coisa e nao conseguir."
+
+                A virada de identidade que converte essa mulher:
+                "Nao é você. É que ninguém leu o seu corpo direito até agora."
+
+DORES:          - Tentou tudo e nada funcionou de forma duradoura
+                - O médico disse que está "dentro do normal" — mas ela sabe que nao está
+                - Perdeu músculo e ficou fraca com a caneta, ou engordou tudo de volta
+                - Cogita bariátrica e tem medo de se arrepender
+                - Sente que o problema é ela, nao a estratégia
+                - Exausta de começar e parar ciclos de dieta
+                - Inchaço que nao passa, cansaço que nao vai embora, ciclo bagunçado
+                - Compulsao noturna que aparece mesmo quando o dia foi "perfeito"
+
+DESEJOS:        - Entender POR QUE o corpo dela nao responde — nao mais uma dieta
+                - Liberdade com comida sem culpa, sem cortar tudo
+                - Energia de volta para funcionar bem na rotina intensa
+                - Sentir-se bem no seu próprio corpo — reconhecer-se no espelho
+                - Um protocolo feito para o caso específico dela, nao genérico
+                - Sair de vez do ciclo: tenta, perde, recai, engorda, culpa
+
+TRANSFORMACAO:  De exausta, inchada, sem resposta e quase desistindo
+                → Leve, regulada, entendendo o próprio corpo e com protocolo que funciona
 
 PRODUTOS (escada de valor):
   Entrada:      E-book (R$47) | Protocolos sazonais (R$47–97)
